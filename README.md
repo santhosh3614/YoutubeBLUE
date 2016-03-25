@@ -7,7 +7,7 @@ also be compiled and installed as an app on Android and/or
 iOS devices using Phonegap/Cordova.
 
 DEMO:
-<a href="http://js.netai.net/youtubeBLUE">YoutubeBLUE Demo</a>
+<a href="http://js.netai.net/YoutubeBlue">YoutubeBLUE Demo</a>
 
 
 
