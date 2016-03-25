@@ -2,7 +2,7 @@
 # Youtube BLUE
 
 This application is built on a framework that allows it to
-run as a web application hosted within a php container. It can 
+run as a web application hosted within a php/.net/node container. It can 
 also be compiled and installed as an app on Android and/or 
 iOS devices using Phonegap/Cordova.
 
