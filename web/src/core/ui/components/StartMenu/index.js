@@ -27,8 +27,13 @@ namespace("core.ui.StartMenu",
 
         this.downloadStartMenu();
         this.setMenuPosition();
-
+        this.fixMenuLogo();
         application.addEventListener("screensized", this.onScreenSizeChanged.bind(this), false);
+    },
+
+    fixMenuLogo : function(){
+        var img = this.logo.querySelector("img");
+            img.src = img.getAttribute("data-src");
     },
 
     toggle : function(){
