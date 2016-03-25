@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.TMG.RoomSaver" android-versionCode="23" version="4.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>HotelCoupons</name>
+    <description>
+        All those big travel websites provide the same rate – but what if you could get one even lower? With HotelCoupons you get access to the lowest possible rates for hotels nationwide by using a walk-in coupon. Hoteliers update these rates daily, so you can be sure to get the best deal available. Browse hotels nearby or search for hotels in your next destination using this sleek app. 
+
+        View property photos, check for available amenities and watch a video about the property. HotelCoupons works seamlessly with your favorite navigation app, so you can view the property location and get directions the way you want them. You can clip your favorite coupons to easily access them in the "My Coupons" section, plus the app keeps track of properties you recently viewed. To check for hotel room availability, click to call the hotel directly from the app. It has never been easier to access the cheapest rates on hotels and motels you love!
+
+        Formerly RoomSaver, HotelCoupons.com has been saving travelers money on last-minute hotel rates for more than 32 years.
+
+        Connect with us:
+            * Website: hotelcoupons.com
+            * Email: info@hotelcoupons.com
+            * Facebook: facebook.com/hotelcouponsdotcom
+            * Twitter: @hotelcoupons
+            * Instagram: @hotelcoupons
+            * Pinterest: pinterest.com/hotelcoupons
+            * Blog: hotelcoupons.com/blog
+
+        What's New
+        What's new in the HotelCoupons app?
+            * Redesigned, intuitive interface to make searching for hotels and saving coupons easy
+            * Simple tutorial to walk you through the app’s new features
+            * Quick Near Me search to find the closest deals based on your geo-location
+            * Destination search powered by Google
+            * My Coupons section for showing your recently saved coupons and recently viewed hotels
+            * Activity tool to show your recent activity in the app 
+            * Updated hotel listings with high-res photos, video and list of amenities
+            * Integration with your navigation app to show location and directions
+            * Click-to-call button to contact the hotel and check availability
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        HotelCoupons Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <plugin name="Device" value="CDVDevice" />
+    <access origin="*" />
+    <allow-navigation href="*"/>
+    <allow-navigation href="http://maps.apple.com"/>
+    <!-- Access to all the subdomains on google.com -->
+    <access origin="http://google.com" />
+    <access origin="https://google.com" />
+    <access origin="http://maps.google.com" />
+    <access origin="https://maps.google.com" />
+    <access origin="http://*.google.com" />
+    <access origin="https://*.google.com" />
+    <access origin="http://maps.apple.com" />
+    <access origin="https://maps.apple.com" />
+    <access origin="http://*.google.com" subdomains="true"/>
+    <access origin="https://*.google.com" subdomains="true"/>
+    <access origin="http://*.vidyard.com" subdomains="true"/>
+    <access origin="http://maps.googleapis.com" />
+    <access origin="https://maps.googleapis.com" />
+    <access origin="http://maps.googleapis.com" />
+    <access origin="http://*.googleapis.com" subdomains="true"/>
+    <access origin="https://*.googleapis.com" subdomains="true"/>
+
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="maps:*" />
+    <allow-intent href="comgooglemaps:*" />
+    <allow-intent href="maps.apple.com:*" />
+    <preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="0" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="ShowSplashScreen" value="false" /> <!-- defaults to "true" -->
+    
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="StatusBarOverlaysWebView" value="false"/>
+        <preference name="StatusBarBackgroundColor" value="#000000"/>
+        <preference name="StatusBarStyle" value="lightcontent" />
+        <plugin name="Geolocation" value="CDVLocation" />
+    </platform>
+</widget>

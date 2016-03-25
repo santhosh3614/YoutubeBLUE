@@ -1,0 +1,42 @@
+
+
+.ApplicationBar .SelectBox ul li {
+    min-height: 22px;
+    padding: 0.4rem 8%;
+    position:relative;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    
+}
+
+.ApplicationBar .SelectBox ul li:last-child {
+    margin-bottom: 15px;
+}
+
+.ApplicationBar .SelectBox ul li .select-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ApplicationBar .SelectBox ul li.selected {
+	background-color: #FFFFFF;
+    color: #666769;
+    border-top:none;
+}
+
+
+.RecentAppsSelectBox #recent-apps-container li .close-app-button{
+	display: inline-block;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 40px;
+}
+.RecentAppsSelectBox #recent-apps-container li .close-app-button .fa.fa-close{
+	font-size: 16px;
+    margin: 12px auto;
+    pointer-events: none;
+    text-align: center;
+}

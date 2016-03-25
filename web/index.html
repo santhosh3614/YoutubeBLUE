@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+		<meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		
+		<link rel="icon" href="resources/images/favicon.ico" type="image/x-icon" />
+		<link href="resources/images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="resources/css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/framework.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/fontsizing.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/YoutubeBLUE.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/themes/Default/Button.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/themes/Default/WindowPanel.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/SelectBox.css"/>
+		<link rel="stylesheet" type="text/css" href="resources/themes/Default/SearchBox.css"/>
+        <title>Youtube Blue</title>
+		<script id="config">
+        	appconfig = {
+        		version		: "1.0",
+			    namespace	: "YoutubeBlue",
+			    charset		: "utf-8",
+			    environment	: "staging",
+			    theme		: "Default",
+			    AMD			: true,
+			    foucdelay	: 3000,
+			    debug		: false,
+			    logging		: true,
+			    fullscreenmode	: true,
+			    ismobile	: true,
+			    apppath		: "",
+                heartbeat   : false
+                //platform_type: "IOS"
+			    /*skin:	"resources/themes/Default/default1.css"*/
+			};	
+        </script>
+		<script src="src/libs/rison.js"></script>    
+        <script src="src/core/libs/StorageManager.js"></script>
+        <script src="resources/src/framework.js"></script>
+        <script src="src/core/data/Accessor.js"></script>
+        <script src="src/core/traits/InfiniteScroll.js"></script>
+        <script src="src/core/libs/UserAgent.js"></script>
+        <script src="src/libs/Kruntch-1.2.0.js"></script>
+        <script src="src/core/libs/Draggable.js"></script>
+        <script src="src/core/libs/abbrNum.js"></script>
+		<script src="src/core/libs/AsciiLib.js"></script>
+        <script src="src/core/http/Router.js"></script>
+        <script src="src/core/http/ResourceLoader.js"></script>
+        <script src="src/core/http/ClassLoader.js"></script>
+        <script src="src/core/http/XmlHttpRequest.js"></script>
+        <script src="src/core/http/WebAction.js"></script>
+        <script src="src/core/http/WebIterator.js"></script>
+        <script src="src/core/ui/WebComponent.js"></script>
+        <script src="src/core/ui/ApplicationBar.js"></script>
+        <script src="src/core/ui/Button.js"></script>
+        <script src="src/core/ui/WebApplication.js"></script>
+        <script src="src/core/ui/Panel.js"></script>
+        <script src="src/core/ui/WindowPanel.js"></script>
+        <script src="src/core/ui/Notification.js"></script>
+        <script src="src/core/ui/ModalScreen.js"></script>
+        <script src="src/core/ui/components/HelpWizard/HelpWizard.js"></script>
+        <script src="src/core/traits/UrlHashState.js"></script>
+        
+
+
+
+
+        <script src="resources/routes.js"></script>
+        <script src="src/app/Session.js"></script>
+        <script src="src/app/Constants.js"></script>
+        <script src="src/app/Labels.js"></script>
+        <script src="src/core/ui/components/StartMenu/index.js"></script>
+        <script src="src/core/ui/SearchBox.js"></script>
+        <script src="src/core/ui/SearchFilterDialog.js"></script>
+        <script src="src/core/ui/SelectBox.js"></script>
+        <script src="src/core/ui/RecentAppsSelectBox.js"></script>
+        <script src="src/core/ui/Navigator.js"></script>
+        <script src="src/core/ui/SlidingMenu.js"></script>
+        <script src="src/core/traits/HandlePanelCloseButton.js"></script>
+        <script src="src/core/traits/AutomaticallyOpenHelpWizardOnce.js"></script>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script src="src/core/ui/SystemShell.js" charset="utf-8"></script>
+        <!--script type="text/javascript" charset="utf-8" src="resources/src/YoutubeBLUE.min.js"></script-->
+        <script src="main.js"></script>
+    </head>
+    
+    
+    <body class="ready">
+		<div class="canvas" style="opacity:0;">
+			<div id="wallpaper" style="opacity:1;"></div>
+			<div id="application-container">
+				<div class="ApplicationBar" namespace="core.ui.ApplicationBar">
+					<div id="start-icon" class="unselectable">
+						<span id="start-icon-symbol" class="fa fa-navicon unselectable" style="color:#ffd503;"></span>
+					</div>
+					<div namespace="core.ui.StartMenu" data-uri="$.DATA.START_MENU" class="unselectable"></div>
+					<div class="screen-title unselectable">Youtube Blue</div>
+					<div class="search-box" namespace="core.ui.SearchBox">
+						<div class="canvas">
+							<input type="text" placeholder="Keywords"/>
+							<div id="app-search-button" namespace="core.ui.Button">
+								<span class="fa fa-search search-icon icon"></span>
+							</div>
+						</div>
+					</div>
+					<div class="buttons" namespace="core.ui.SlidingMenu">
+						<ul id="menu">
+							<li class="options selected">
+								<span class="fa fa-ellipsis-v"></span>
+								<span class="label">OPTIONS</span>
+							</li>
+							<li class="fullscreen">
+								<span class="fa fa-desktop"></span>
+								<span class="label">FULLSCREEN</span>
+							</li>
+							<li class="recent-apps" readonly="true" data-refresh="false" data-refresh-interval="31000" namespace="core.ui.RecentAppsSelectBox" data-uri="$.DATA.RECENTAPPS">
+								<span class="fa fa-reply"></span>
+								<span class="label">ACTIVITY</span>
+								<ul id="recent-apps-container">
+									<script id="recent-apps-template" type="text/x-kruntch-template">
+										<if condition="this.result.currently_running.length > 0">
+											<li style="pointer-events: none;font-weight:bold;margin-top:7px;">Recent Activity</li>
+											<for each="result.currently_running">
+												<li data-app-ref="[appref]" class="item">
+													<div class="select-label">[name]</div>
+													<div class="menu-item-info">[time]</div>
+													<div class="close-app-button"><span class="fa fa-close"></span></div>
+												</li>
+											</for>
+										</if>
+									</script>
+								</ul>
+							</li>
+							<li id="support" namespace="core.ui.Button" data-app-ref="apps/SearchResult">
+								<span class="fa fa-phone"></span>
+								<span class="label">SUPPORT</span>
+							</li>
+						</ul>
+					</div>
+                    <div id="toggle-sheen-effect" class=""></div>
+				</div>
+				<div id="desktop-notifications"></div>		
+				<div class="running application-container unselectable" namespace="core.ui.WebComponent"></div>
+				<span id="global-application-spinner" class="fa fa-spinner"></span>
+			</div>
+		</div>
+		<div id="landscape">
+			<div id="rotateplease"><div>Woah! Don't do that!</div></div>
+		</div>
+	</body>
+</html>
+	

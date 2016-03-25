@@ -1,0 +1,39 @@
+.WebApplication.Privacy {
+    height: 100%;
+    width: 100%;
+}
+
+.WebApplication.Privacy .WebComponent.WindowPanel{
+	height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    right:auto;
+    bottom:auto;
+}
+
+.WebApplication.Privacy .WebComponent.WindowPanel .panel-content {
+	padding: 5px 20px 0px 20px;
+	color: #515254;
+	margin-bottom: 6px;
+}
+
+.WebApplication.Privacy .WebComponent.WindowPanel .panel-content .privacy-body-text{
+	font-family: OpenSans;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.WebApplication.Privacy .WebComponent.WindowPanel .panel-content .privacy-body-text ul{
+	padding-left: 20px;
+}
+
+.WebApplication.Privacy .WebComponent.WindowPanel .panel-content .privacy-sections{
+	padding-bottom: 10px;
+}
+
+.WebApplication.Privacy .WebComponent.WindowPanel .panel-content #privacy-updated{
+	font-weight: bold;
+	line-height: 20px;
+	padding-bottom: 10px;
+}

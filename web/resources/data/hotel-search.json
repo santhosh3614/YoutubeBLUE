@@ -1,0 +1,1129 @@
+{
+  "page": 1,
+  "count": 1,
+  "total": 6,
+  "items": [{
+    "address": {
+      "meta_datas": [],
+      "line1": "1600 S. Harbor Blvd.",
+      "line2": "",
+      "city": "Anaheim",
+      "state": "CA",
+      "zip": "92802",
+      "country": "US"
+    },
+    "amenities": [{
+      "meta_datas": [],
+      "id": 3,
+      "name": "Amusement Park Near",
+      "key_selector": "amusement_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 4,
+      "name": "Continental Breakfast",
+      "key_selector": "breakfast_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 5,
+      "name": "Business Center",
+      "key_selector": "business_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 6,
+      "name": "Premium Channels",
+      "key_selector": "channels_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 7,
+      "name": "In-Room Coffee",
+      "key_selector": "coffee_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 8,
+      "name": "Dry Cleaning\/Laundry",
+      "key_selector": "cleaning_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 9,
+      "name": "In-Room Hair Dryer",
+      "key_selector": "blowdry_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 12,
+      "name": "Handicap Access",
+      "key_selector": "handicapped_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 13,
+      "name": "Internet-High Speed",
+      "key_selector": "internet_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 14,
+      "name": "In-Room Iron",
+      "key_selector": "iron_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 15,
+      "name": "Kids Stay Free",
+      "key_selector": "kids_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 18,
+      "name": "In-Room Microwave",
+      "key_selector": "microwave_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 20,
+      "name": "Non-Smoking",
+      "key_selector": "nonsmoking_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 22,
+      "name": "Swimming Pool",
+      "key_selector": "pool_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 23,
+      "name": "In-Room Refrigerator",
+      "key_selector": "fridge_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 24,
+      "name": "Restaurants Nearby",
+      "key_selector": "restaurant_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 25,
+      "name": "Shopping Nearby",
+      "key_selector": "shopping_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 26,
+      "name": "Valet Parking",
+      "key_selector": "valet_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 30,
+      "name": "Internet-Wireless",
+      "key_selector": "wifi_amenity"
+    }],
+    "description": {
+      "meta_datas": [],
+      "description": "Enjoy all the magic of Disney at the Anaheim Desert Inn and Suites, located directly across the Disneyland Resort. \r\n\r\nAfter an exciting day of adventure, you\u2019ll love coming home to Desert Inn and Suites, relaxing at the indoor heated pool and spa, and then enjoying the fireworks from our viewing deck.  We have a business center and free Wi-Fi for your convenience, and a complimentary continental breakfast that's available each morning.\r\n\r\nA refrigerator, microwave, and personal care amenities are always included, and our LCD TV\u2019s are perfect for watching all your favorite shows each evening.  With deluxe rooms and parlor family suites that accommodate up to 10 guests, you\u2019ll find the perfect room for your family at Desert Inn.\r\n\r\nWe're just 2 blocks from the Convention center, and steps away from Downtown Disney District and an amazing selection of great shops, restaurants, and other area attractions.",
+      "brief_description": "When you want to be close to the action, You can't get any closer than the Anaheim Desert Inn & Suites.",
+      "directions": "I-5 South, Exit Disney Way, turn right. Turn Right onto Harbor Blvd. Hotel on the Right. I-5 North, Exit Disney Way\/ Katella Ave. Stay on Disney Way to Harbor Blvd. Make a Right on Harbor. Hotel on Right Side.",
+      "restrictions": "Coupon Rates Subject to Availability and Change. 2-Day\u2019s Refund Cancellation Notice Required. No Other Discount Apply. Check-in 3pm Check-Out 11am"
+    },
+    "distance": 2096.9434029663,
+    "featured": true,
+    "id": "57bbbddd",
+    "name": "Anaheim Desert Inn and Suites",
+    "phone": "(714) 772-5050",
+    "photos": [{
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/1e2d35fb-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/1e2d35fb-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/138c7be6-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/138c7be6-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/8f2b7715-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/8f2b7715-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/04bfc4aa-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/04bfc4aa-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/595a5fbb-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/595a5fbb-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/dc1ccdf6-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/685398d4-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/685398d4-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/5f309465-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/5f309465-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/b3747693-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/b3747693-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/1b3575d5-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/1b3575d5-anaheim-desert-inn-and-suites.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraLarge\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/extraSmall\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/large\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/largeFeatured\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/medium\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/originals\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/small\/975372b9-anaheim-desert-inn-and-suites.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/57bbbddd\/smallFeatured\/975372b9-anaheim-desert-inn-and-suites.jpg"
+    }],
+    "rate": "109.00",
+    "rate_pretty": "From $109.00",
+    "rate_type": "from-dollar",
+    "recently_updated": true,
+    "video": {
+      "meta_datas": [],
+      "id": 2145,
+      "status": 4,
+      "transcript": "Enjoy all the magic of Disney at the Anaheim Desert Inn and Suites, located directly across the Disneyland Resort. \r\n\r\nAfter an exciting day of adventure, you\u2019ll love coming home to Desert Inn and Suites, relaxing at the indoor heated pool and spa, and then enjoying the fireworks from our viewing deck.  We have a business center and free Wi-Fi for your convenience, and a complimentary continental breakfast that's available each morning.\r\n\r\nA refrigerator, microwave, and personal care amenities are always included, and our LCD TV\u2019s are perfect for watching all your favorite shows each evening.  With deluxe rooms and parlor family suites that accommodate up to 10 guests, you\u2019ll find the perfect room for your family at Desert Inn.\r\n\r\nWe're just 2 blocks from the Convention center, and steps away from Downtown Disney District and an amazing selection of great shops, restaurants, and other area attractions.",
+      "title": "Anaheim Desert Inn and Suites",
+      "description": "Enjoy all the magic of Disney at the Anaheim Desert Inn and Suites, located directly across the Disneyland Resort.",
+      "duration": 59,
+      "url": "http:\/\/play.vidyard.com\/3r1F7YGPM7J51wNx43V9AA.html?v=3.1",
+      "player_id": 213019,
+      "vidyard_id": 243361,
+      "vidyard_inline": "<script type='text\/javascript' id='vidyard_embed_code_noD_cRc-WZmlXE6EkKPx_g' src='\/\/play.vidyard.com\/noD_cRc-WZmlXE6EkKPx_g.js?v=3.1.1&type=inline'><\/script>",
+      "vidyard_iframe": "<iframe class='vidyard_iframe' src='\/\/play.vidyard.com\/noD_cRc-WZmlXE6EkKPx_g.html?v=3.1.1' width='640' height='360' scrolling='no' frameborder='0' allowtransparency='true' allowfullscreen><\/iframe>",
+      "vidyard_light_box": "<script type='text\/javascript' id='vidyard_embed_code_noD_cRc-WZmlXE6EkKPx_g' src='\/\/play.vidyard.com\/noD_cRc-WZmlXE6EkKPx_g.js?v=3.1.1&type=lightbox'><\/script><div class='outer_vidyard_wrapper'><div class='vidyard_wrapper' onclick='fn_vidyard_noD_cRc$WZmlXE6EkKPx_g();'>Click here to launch your video in a lightbox.<\/div><\/div>"
+    }
+  }, {
+    "address": {
+      "meta_datas": [],
+      "line1": "3433 Axar St",
+      "line2": "",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28208",
+      "country": "US"
+    },
+    "amenities": [{
+      "meta_datas": [],
+      "id": 2,
+      "name": "Airport Near",
+      "key_selector": "airport_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 9,
+      "name": "In-Room Hair Dryer",
+      "key_selector": "blowdry_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 13,
+      "name": "Internet-High Speed",
+      "key_selector": "internet_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 14,
+      "name": "In-Room Iron",
+      "key_selector": "iron_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 17,
+      "name": "Free Local Calls",
+      "key_selector": "localcalls_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 18,
+      "name": "In-Room Microwave",
+      "key_selector": "microwave_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 22,
+      "name": "Swimming Pool",
+      "key_selector": "pool_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 23,
+      "name": "In-Room Refrigerator",
+      "key_selector": "fridge_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 24,
+      "name": "Restaurants Nearby",
+      "key_selector": "restaurant_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 30,
+      "name": "Internet-Wireless",
+      "key_selector": "wifi_amenity"
+    }],
+    "description": {
+      "meta_datas": [],
+      "description": "Looking for the perfect place to stay in Charlotte?  Look no further than the Royal Inn and Suites Charlotte Airport Hotel.  Located in the heart of the Carolinas, we\u2019re just minutes from many of the area\u2019s most popular attractions, and you\u2019ll enjoy easy access to several major corporations, shops and restaurants.\r\n\r\nIn addition to our friendly 24-hour front desk service, our guests enjoy free morning coffee, free Wi-Fi and free parking.  We have express check-out, copy and fax services, a guest laundry, and vending machines for your convenience, and you\u2019ll love relaxing on the spacious deck of our refreshing outdoor pool.   \r\n\r\nAll of our guest rooms have a microwave and a refrigerator for drinks and snacks, and our extended cable package includes over 70 channels.  With comfortable beds, plenty of pillows and a full range of personal care amenities, you\u2019ll love staying with us at Royal Inn and Suites Charlotte Airport.",
+      "brief_description": "Located in the heart of Carolinas, the Royal Inn and Suites Charlotte Airport Hotel is a 119 rooms hotel with direct access from rooms to parking area.",
+      "directions": "I-85, take exit 33, Billy Graham Pkwy. South (Towards Airport) make u-turn on Bayer St. make first right before Comfort Suites onto Mulberry Church Rd; we are next to Comfort Suites.",
+      "restrictions": "Call ahead $39 + Tax.  With coupon at check-in. Based on availability. Not during holidays or special events."
+    },
+    "distance": 14.475142085977,
+    "featured": false,
+    "id": "1f1b69d1",
+    "name": "Royal Inn & Suites Charlotte",
+    "phone": "(704) 394-1819",
+    "photos": [{
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraLarge\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraSmall\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/large\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/largeFeatured\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/medium\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/originals\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/small\/d4c3b55b-royal-inn-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/smallFeatured\/d4c3b55b-royal-inn-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraLarge\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraSmall\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/large\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/largeFeatured\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/medium\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/originals\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/small\/eeed31f9-royal-inn-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/smallFeatured\/eeed31f9-royal-inn-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraLarge\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraSmall\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/large\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/largeFeatured\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/medium\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/originals\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/small\/fc42ac7f-royal-inn-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/smallFeatured\/fc42ac7f-royal-inn-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraLarge\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraSmall\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/large\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/largeFeatured\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/medium\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/originals\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/small\/2c45da84-royal-inn-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/smallFeatured\/2c45da84-royal-inn-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraLarge\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/extraSmall\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/large\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/largeFeatured\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/medium\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/originals\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/small\/264f4ec6-royal-inn-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/1f1b69d1\/smallFeatured\/264f4ec6-royal-inn-suites-charlotte.jpg"
+    }],
+    "rate": "41.00",
+    "rate_pretty": "$41.00",
+    "rate_type": "dollar",
+    "recently_updated": false,
+    "video": {
+      "meta_datas": [],
+      "id": 952,
+      "status": 4,
+      "transcript": "Looking for the perfect place to stay in Charlotte?  Look no further than the Royal Inn and Suites Charlotte Airport Hotel.  Located in the heart of the Carolinas, we\u2019re just minutes from many of the area\u2019s most popular attractions, and you\u2019ll enjoy easy access to several major corporations, shops and restaurants.\r\n\r\nIn addition to our friendly 24-hour front desk service, our guests enjoy free morning coffee, free Wi-Fi and free parking.  We have express check-out, copy and fax services, a guest laundry, and vending machines for your convenience, and you\u2019ll love relaxing on the spacious deck of our refreshing outdoor pool.   \r\n\r\nAll of our guest rooms have a microwave and a refrigerator for drinks and snacks, and our extended cable package includes over 70 channels.  With comfortable beds, plenty of pillows and a full range of personal care amenities, you\u2019ll love staying with us at Royal Inn and Suites Charlotte Airport.",
+      "title": "Royal Inn and Suites Charlotte Airport",
+      "description": "Comfortable accommodations near the Charlotte Airport.",
+      "duration": 60,
+      "url": "http:\/\/video2.bettervideo.com\/video\/TMG\/MP4640x360\/510.1f1b69d1.mp4",
+      "player_id": 91941,
+      "vidyard_id": 110255,
+      "vidyard_inline": "<script type=\"text\/javascript\" id=\"vidyard_embed_code_Nvfs-1nLOHNpJBdJyAx8SA\" src=\"\/\/play.vidyard.com\/Nvfs-1nLOHNpJBdJyAx8SA.js?v=3.1&type=inline\"><\/script>",
+      "vidyard_iframe": "<iframe class=\"vidyard_iframe\" src=\"\/\/play.vidyard.com\/Nvfs-1nLOHNpJBdJyAx8SA.html?v=3.1\" width=\"640\" height=\"360\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"><\/iframe>",
+      "vidyard_light_box": "<script type=\"text\/javascript\" id=\"vidyard_embed_code_Nvfs-1nLOHNpJBdJyAx8SA\" src=\"\/\/play.vidyard.com\/Nvfs-1nLOHNpJBdJyAx8SA.js?v=3.1&type=lightbox\"><\/script><div class=\"outer_vidyard_wrapper\"><div class=\"vidyard_wrapper\" onclick=\"fn_vidyard_Nvfs$1nLOHNpJBdJyAx8SA();\">Click here to launch your video in a lightbox.<\/div><\/div>"
+    }
+  }, {
+    "address": {
+      "meta_datas": [],
+      "line1": "3425 Mulberry Church Rd",
+      "line2": "",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28208",
+      "country": "US"
+    },
+    "amenities": [{
+      "meta_datas": [],
+      "id": 1,
+      "name": "AAA Accepted",
+      "key_selector": "aaa_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 2,
+      "name": "Airport Near",
+      "key_selector": "airport_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 4,
+      "name": "Continental Breakfast",
+      "key_selector": "breakfast_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 5,
+      "name": "Business Center",
+      "key_selector": "business_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 10,
+      "name": "Fitness Room",
+      "key_selector": "fitness_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 13,
+      "name": "Internet-High Speed",
+      "key_selector": "internet_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 17,
+      "name": "Free Local Calls",
+      "key_selector": "localcalls_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 19,
+      "name": "Free Newspaper",
+      "key_selector": "news_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 24,
+      "name": "Restaurants Nearby",
+      "key_selector": "restaurant_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 25,
+      "name": "Shopping Nearby",
+      "key_selector": "shopping_amenity"
+    }],
+    "description": {
+      "meta_datas": [],
+      "description": "The Comfort Suites Airport is conveniently located less than five miles from attractions like the Charlotte Coliseum, Charlotte Convention Center, Ericsson Stadium and the Mint Museum. The Charlotte\/Douglas International Airport is one mile and the Charlotte Motor Speedway is 12 miles from this Charlotte, NC hotel.\nCarowinds theme park, uptown Charlotte and the Discovery Place science center are minutes away. Visitors will enjoy shopping at the nearby Southpark Mall. A variety of restaurants and cocktail lounges are located in the surrounding area.\nFull-service amenities and features include:\nFree airport transportation from 5:00 a.m. to midnight\nFree high-speed Internet access in all rooms\nFree full hot breakfast\nFree local calls\nFree weekday newspaper\nThe free full hot breakfast features eggs, breakfast meat, biscuits and gravy, grits, assorted cereals, muffins, fresh fruit and beverages. (Items may vary.) Guests of this Charlotte, NC hotel will also enjoy the indoor heated pool and fitness center.\nBusiness travelers will appreciate conveniences like two-line telephones, voice mail, fully equipped business center and access to copy and fax services. The meeting space accommodates up to 50 people for most events and business functions.\nAll spacious suites are complete with coffee makers, irons, ironing boards and hair dryers. Studio suites also include refrigerators, microwaves and wet bars. One-bedroom suites are furnished with full kitchens and appliances.\nTwo guest laundry facilities are located on the property. Special rates are available for extended stay guests. Group and tailored packages are also available.\nCome and find the value you want at the Comfort Suites Airport in Charlotte. We look forward to your arrival and the opportunity to serve you. Our goal is to make you feel like #1.",
+      "brief_description": "Charlotte hotels - Comfort Suites hotel in Charlotte, NC near Charlotte-Douglas Airport.",
+      "directions": "Exit 33 off I-85.",
+      "restrictions": "Present coupon at check-in. Good for one night stay only. Coupon intended for travelers outside Charlotte area. Based on availability. Not valid for groups, Charlotte* area residents, with other discounts or during special events. Limited number of rooms at coupon rate available."
+    },
+    "distance": 14.538111748866,
+    "featured": false,
+    "id": "7ad1aa27",
+    "name": "Comfort Suites Charlotte",
+    "phone": "(704) 971-4400",
+    "photos": [{
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/9a902f35-comfort-suites-charlotte-nc.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/9a902f35-comfort-suites-charlotte-nc.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/adf908ed-comfort-suites-charlotte-nc.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/adf908ed-comfort-suites-charlotte-nc.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/48d8142d-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/48d8142d-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/56b7bf3e-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/56b7bf3e-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": true,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/bd5cfe80-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/bd5cfe80-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/fcc4b91d-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/fcc4b91d-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/42029b44-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/42029b44-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/42029b44-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/42029b44-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/42029b44-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/42029b44-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/42029b44-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/42029b44-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/3511230f-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/3511230f-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/3511230f-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/3511230f-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/3511230f-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/3511230f-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/3511230f-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/3511230f-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/8a28051a-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/8a28051a-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/2b6029f5-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/2b6029f5-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/0edcf680-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/0edcf680-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/ff700d56-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/ff700d56-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/a3202d06-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/a3202d06-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/ff44fed9-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/ff44fed9-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/e4516ff4-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/e4516ff4-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/8e1565d7-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/8e1565d7-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/4b42a283-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/4b42a283-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/5701e42f-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/5701e42f-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/5040f093-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/5040f093-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/5040f093-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/5040f093-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/5040f093-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/5040f093-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/5040f093-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/5040f093-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/73d33a43-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/73d33a43-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/fb9411b6-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/fb9411b6-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/702bbd44-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/702bbd44-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/b3921612-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/b3921612-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/b3921612-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/b3921612-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/b3921612-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/b3921612-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/b3921612-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/b3921612-comfort-suites-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraLarge\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/extraSmall\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/large\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/largeFeatured\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/medium\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/originals\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/small\/a9efe139-comfort-suites-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/7ad1aa27\/smallFeatured\/a9efe139-comfort-suites-charlotte.jpg"
+    }],
+    "rate": "89.99",
+    "rate_pretty": "$89.99",
+    "rate_type": "dollar",
+    "recently_updated": false
+  }, {
+    "address": {
+      "meta_datas": [],
+      "line1": "212 W Woodlawn Rd",
+      "line2": "",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28217",
+      "country": "US"
+    },
+    "amenities": [{
+      "meta_datas": [],
+      "id": 5,
+      "name": "Business Center",
+      "key_selector": "business_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 10,
+      "name": "Fitness Room",
+      "key_selector": "fitness_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 13,
+      "name": "Internet-High Speed",
+      "key_selector": "internet_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 22,
+      "name": "Swimming Pool",
+      "key_selector": "pool_amenity"
+    }],
+    "description": {
+      "meta_datas": [],
+      "description": "Welcome to Ramada Charlotte Airport Hotel and Conference Center.  Our convenient location puts you just minutes from the Charlotte Douglass International Airport, and you\u2019ll enjoy easy access to Interstates 77 and 85, the downtown area, and many popular attractions.\r\n\r\nAs our guest, you\u2019ll enjoy unparalleled service and amenities, including a delicious on-site restaurant open for breakfast, lunch and dinner; a modern business center and flexible meeting space; and a well-equipped fitness center.  Our seasonal outdoor pool is the perfect place to relax in the evenings.  We also offer free parking and a complimentary shuttle service for your convenience.  \r\n\r\nOur clean, quiet guest rooms are the perfect place to refresh, relax and unwind, with comfortable beds, plenty of pillows, an inviting d\u00e9cor, and a spacious, thoughtfully designed bathroom.  Whether you\u2019re here on business or pleasure, you\u2019ll find the quality accommodations you deserve at a price you can afford at Ramada.",
+      "brief_description": "Charlotte Airport Hotel With Extensive Conference Facilities and Free Shuttle Service.",
+      "directions": "I-77 South or North take Exit 6A (Woodlawn Road). Hotel will be on the left.",
+      "restrictions": "With coupon at check-in. Based on availability. Not valid during holidays or special events."
+    },
+    "distance": 17.931441021411,
+    "featured": true,
+    "id": "53232878",
+    "name": "Ramada Plaza Charlotte Airport Hotel & Conference Center",
+    "phone": "(704) 688-9977",
+    "photos": [{
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/14149281-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/14149281-ramada-charlotte-hotel-conference-center.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/4e7af22a-ramada-charlotte-hotel-conference-center.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/8922ea0b-ramada-charlotte-hotel-conference-center.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/ab9c9b36-ramada-charlotte-hotel-conference-center.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/78487c7f-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/78487c7f-ramada-charlotte-hotel-conference-center.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/884a78af-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/884a78af-ramada-charlotte-hotel-conference-center.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraLarge\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/extraSmall\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/large\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/largeFeatured\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/medium\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/originals\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/small\/979f21c7-ramada-charlotte-hotel-conference-center.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/53232878\/smallFeatured\/979f21c7-ramada-charlotte-hotel-conference-center.jpg"
+    }],
+    "rate": "69.00",
+    "rate_pretty": "$69.00",
+    "rate_type": "dollar",
+    "recently_updated": false,
+    "video": {
+      "meta_datas": [],
+      "id": 1016,
+      "status": 4,
+      "transcript": "Welcome to Ramada Charlotte Airport Hotel and Conference Center.  Our convenient location puts you just minutes from the Charlotte Douglass International Airport, and you\u2019ll enjoy easy access to Interstates 77 and 85, the downtown area, and many popular attractions.\r\n\r\nAs our guest, you\u2019ll enjoy unparalleled service and amenities, including a delicious on-site restaurant open for breakfast, lunch and dinner; a modern business center and flexible meeting space; and a well-equipped fitness center.  Our seasonal outdoor pool is the perfect place to relax in the evenings.  We also offer free parking and a complimentary shuttle service for your convenience.  \r\n\r\nOur clean, quiet guest rooms are the perfect place to refresh, relax and unwind, with comfortable beds, plenty of pillows, an inviting d\u00e9cor, and a spacious, thoughtfully designed bathroom.  Whether you\u2019re here on business or pleasure, you\u2019ll find the quality accommodations you deserve at a price you can afford at Ramada.",
+      "title": "Ramada Charlotte Airport Hotel and Conference Center",
+      "description": "Welcome to Ramada Charlotte Airport Hotel and Conference Center.  Our convenient location puts you just minutes from the Charlotte Douglass International Airport, and you\u2019ll enjoy easy access to Interstates 77 and 85, the downtown area, and many popular attractions.",
+      "duration": 64,
+      "url": "http:\/\/video2.bettervideo.com\/video\/TMG\/MP4640x360\/510.53232878.mp4",
+      "player_id": 95181,
+      "vidyard_id": 113547,
+      "vidyard_inline": "<script type=\"text\/javascript\" id=\"vidyard_embed_code_TebRz92MMAPrA9HhxJjHYA\" src=\"\/\/play.vidyard.com\/TebRz92MMAPrA9HhxJjHYA.js?v=3.1&type=inline\"><\/script>",
+      "vidyard_iframe": "<iframe class=\"vidyard_iframe\" src=\"\/\/play.vidyard.com\/TebRz92MMAPrA9HhxJjHYA.html?v=3.1\" width=\"640\" height=\"360\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"><\/iframe>",
+      "vidyard_light_box": "<script type=\"text\/javascript\" id=\"vidyard_embed_code_TebRz92MMAPrA9HhxJjHYA\" src=\"\/\/play.vidyard.com\/TebRz92MMAPrA9HhxJjHYA.js?v=3.1&type=lightbox\"><\/script><div class=\"outer_vidyard_wrapper\"><div class=\"vidyard_wrapper\" onclick=\"fn_vidyard_TebRz92MMAPrA9HhxJjHYA();\">Click here to launch your video in a lightbox.<\/div><\/div>"
+    }
+  }, {
+    "address": {
+      "meta_datas": [],
+      "line1": "122 W Woodlawn Road",
+      "line2": "",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28217",
+      "country": "US"
+    },
+    "amenities": [{
+      "meta_datas": [],
+      "id": 18,
+      "name": "In-Room Microwave",
+      "key_selector": "microwave_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 23,
+      "name": "In-Room Refrigerator",
+      "key_selector": "fridge_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 24,
+      "name": "Restaurants Nearby",
+      "key_selector": "restaurant_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 28,
+      "name": "Wireless Internet",
+      "key_selector": "wifi_amenity"
+    }],
+    "description": {
+      "meta_datas": [],
+      "description": "Welcome to Quality Inn Charlotte.  This newly renovated hotel is located just off of Interstate 77, minutes from downtown and the airport, with a wonderful selection of shopping, dining and entertainment nearby.  \r\n\r\nQuality Inn Charlotte is a 100% smoke-free hotel with plenty of parking, a caring and courteous front desk staff, and a complimentary hot and delicious breakfast buffet.  We have on-site exercise room and a business center, and we\u2019ll keep you connected with free Wi-Fi.\r\n\r\nWhether you\u2019re here for business or leisure, our spacious guest rooms have everything you need to feel right at home.  You\u2019ll find a microwave and refrigerator for cool drinks and light snacks, comfortable beds with crisp, clean linens and plenty of pillows, and a 40-inch flat panel LED TV with over 60 HD channels for your viewing pleasure.  For great rooms at great rates, contact Quality Inn Charlotte today.",
+      "brief_description": "Quality Inn hotel in Charlotte, NC near Charlotte Airport.",
+      "directions": "I 77 South or North take Exit 6 A (Woodlawn Rd). Hotel will be on the left.",
+      "restrictions": "With coupon at check in. Based on availability. Not valid with other discounts, during holidays or special events."
+    },
+    "distance": 18.093997392265,
+    "featured": false,
+    "id": "3618c8c8",
+    "name": "Quality Inn Charlotte",
+    "phone": "(980) 938-8542",
+    "photos": [{
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraLarge\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraSmall\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/large\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/largeFeatured\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/medium\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/originals\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/small\/971e1bb0-quality-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/smallFeatured\/971e1bb0-quality-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraLarge\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraSmall\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/large\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/largeFeatured\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/medium\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/originals\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/small\/c6d84cdf-quality-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/smallFeatured\/c6d84cdf-quality-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraLarge\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraSmall\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/large\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/largeFeatured\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/medium\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/originals\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/small\/7aabc0fc-quality-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/smallFeatured\/7aabc0fc-quality-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraLarge\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraSmall\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/large\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/largeFeatured\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/medium\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/originals\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/small\/4c6c6904-quality-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/smallFeatured\/4c6c6904-quality-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraLarge\/46d47470-quality-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraSmall\/46d47470-quality-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/large\/46d47470-quality-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/largeFeatured\/46d47470-quality-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/medium\/46d47470-quality-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/originals\/46d47470-quality-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/small\/46d47470-quality-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/smallFeatured\/46d47470-quality-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraLarge\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/extraSmall\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/large\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/largeFeatured\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/medium\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/originals\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/small\/0d4c18f3-quality-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/3618c8c8\/smallFeatured\/0d4c18f3-quality-inn-charlotte.jpg"
+    }],
+    "rate": "57.95",
+    "rate_pretty": "$57.95",
+    "rate_type": "dollar",
+    "recently_updated": false,
+    "video": {
+      "meta_datas": [],
+      "id": 1734,
+      "status": 4,
+      "transcript": "Welcome to Quality Inn Charlotte.  This newly renovated hotel is located just off of Interstate 77, minutes from downtown and the airport, with a wonderful selection of shopping, dining and entertainment nearby.  \r\n\r\nQuality Inn Charlotte is a 100% smoke-free hotel with plenty of parking, a caring and courteous front desk staff, and a complimentary hot and delicious breakfast buffet.  We have on-site exercise room and a business center, and we\u2019ll keep you connected with free Wi-Fi.\r\n\r\nWhether you\u2019re here for business or leisure, our spacious guest rooms have everything you need to feel right at home.  You\u2019ll find a microwave and refrigerator for cool drinks and light snacks, comfortable beds with crisp, clean linens and plenty of pillows, and a 40-inch flat panel LED TV with over 60 HD channels for your viewing pleasure.  For great rooms at great rates, contact Quality Inn Charlotte today.",
+      "title": "Quality Inn Charlotte",
+      "description": "Welcome to Quality Inn Charlotte.  This newly renovated hotel is located just off of Interstate 77, minutes from downtown and the airport, with a wonderful selection of shopping, dining and entertainment nearby.",
+      "duration": 64,
+      "url": "http:\/\/video2.bettervideo.com\/video\/TMG\/MP4640x360\/510.3618c8c8.mp4",
+      "player_id": 169489,
+      "vidyard_id": 195296,
+      "vidyard_inline": "<script type=\"text\/javascript\" id=\"vidyard_embed_code_QcbuyJoQuZIG6YVHyDz-zg\" src=\"\/\/play.vidyard.com\/QcbuyJoQuZIG6YVHyDz-zg.js?v=3.1&type=inline\"><\/script>",
+      "vidyard_iframe": "<iframe class=\"vidyard_iframe\" src=\"\/\/play.vidyard.com\/QcbuyJoQuZIG6YVHyDz-zg.html?v=3.1\" width=\"640\" height=\"360\" scrolling=\"no\" frameborder=\"0\" allowtransparency=\"true\"><\/iframe>",
+      "vidyard_light_box": "<script type=\"text\/javascript\" id=\"vidyard_embed_code_QcbuyJoQuZIG6YVHyDz-zg\" src=\"\/\/play.vidyard.com\/QcbuyJoQuZIG6YVHyDz-zg.js?v=3.1&type=lightbox\"><\/script><div class=\"outer_vidyard_wrapper\"><div class=\"vidyard_wrapper\" onclick=\"fn_vidyard_QcbuyJoQuZIG6YVHyDz$zg();\">Click here to launch your video in a lightbox.<\/div><\/div>"
+    }
+  }, {
+    "address": {
+      "meta_datas": [],
+      "line1": "701 Yorkmont Rd",
+      "line2": "",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28217",
+      "country": "US"
+    },
+    "amenities": [{
+      "meta_datas": [],
+      "id": 4,
+      "name": "Continental Breakfast",
+      "key_selector": "breakfast_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 5,
+      "name": "Business Center",
+      "key_selector": "business_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 10,
+      "name": "Fitness Room",
+      "key_selector": "fitness_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 13,
+      "name": "Internet-High Speed",
+      "key_selector": "internet_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 22,
+      "name": "Swimming Pool",
+      "key_selector": "pool_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 24,
+      "name": "Restaurants Nearby",
+      "key_selector": "restaurant_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 25,
+      "name": "Shopping Nearby",
+      "key_selector": "shopping_amenity"
+    }, {
+      "meta_datas": [],
+      "id": 30,
+      "name": "Internet-Wireless",
+      "key_selector": "wifi_amenity"
+    }],
+    "description": {
+      "meta_datas": [],
+      "description": "The Sleep Inn Billy Graham Parkway is ideally located off Interstate 77 and Billy Graham Parkway. This Charlotte, NC hotel is easily accessible to Interstate 85 and is convenient to the Charlotte business district, convention centers and Lowe's Motor Speedway. The hotel is minutes from:\r\nBilly Graham Library\r\nCharlotte Douglas International Airport (CLT)\r\nCharlotte Convention Center\r\nBank of America Stadium, home of the NFL Carolina Panthers\r\nCarowinds theme park\r\nThe Time Warner Cable Arena, home of the NBA Charlotte Bobcats, Discovery Place, the U.S. National Whitewater Center (USNWC) and the North Carolina Blumenthal Performing Arts Center are just a few miles away. The hotel is only five miles from Uptown Charlotte, which has a variety of recreational and cultural opportunities, shopping centers, restaurants and cocktail lounges. Charlotte's Lynx Light Rail is less than a mile away and offers cheap and quick access in and out of downtown Charlotte.\r\nFor relaxation or business, this Charlotte, NC hotel offers many great amenities and features, including:\r\nFree Morning Medley Hot Breakfast\r\nFree wireless high-speed Internet access in all rooms\r\nFree local calls\r\nFree weekday newspaper\r\nRefrigerators and microwaves in all rooms\r\nGuests will enjoy working out in the fitness center, relaxing on the sundeck or going for a refreshing swim in the seasonal outdoor pool.\r\nBusiness travelers will appreciate additional modern conveniences like the business center with a convenient workstation plus access to fax and copy services. The meeting room accommodates up to 30 people and is perfect for hosting most events and business functions.\r\nAll spacious guest rooms feature extended cable channels with free HBO, walk-in showers, coffee makers, hair dryers, irons and ironing boards. Suites and non-smoking rooms can be requested.\r\nThe next time your travels bring you to the Queen City, we invite you to experience our perfect blend of world-class hospitality, excellent accommodations and affordable rates. Come see why both business and leisure travelers make the Sleep Inn Billy Graham Parkway in Charlotte, North Carolina their home away from home.",
+      "brief_description": "Charlotte hotels - Sleep Inn hotel near Charlotte Douglas International Airport, Charlotte NC.",
+      "directions": "I-77S, Exit 6B. Right on Yorkmont Rd. I-77N, Exit 6B Left on S. Tryon St. Right on Yorkmont Rd.",
+      "restrictions": "With coupon at check-in. Based on availability. Not valid with other discounts, during holidays or special events."
+    },
+    "distance": 18.110525617826,
+    "featured": false,
+    "id": "ce7ee628",
+    "name": "Sleep Inn Charlotte",
+    "phone": "(704) 525-5005",
+    "photos": [{
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/2f8ac817-sleep-inn-billy-graham-charlotte-nc.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/cd67005c-sleep-inn-billy-graham-charlotte-nc.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/d3fa781c-sleep-inn-billy-graham.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/d3fa781c-sleep-inn-billy-graham.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/c2d19fc1-sleep-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/c2d19fc1-sleep-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/5831a69c-sleep-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/5831a69c-sleep-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/5bc29420-sleep-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/5bc29420-sleep-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/ac8335f7-sleep-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/ac8335f7-sleep-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/64f3eb9d-sleep-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/64f3eb9d-sleep-inn-charlotte.jpg"
+    }, {
+      "is_banner_img": false,
+      "url_extra_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraLarge\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_extra_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/extraSmall\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_large": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/large\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_large_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/largeFeatured\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_medium": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/medium\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_original": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/originals\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_small": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/small\/7fb3f17d-sleep-inn-charlotte.jpg",
+      "url_small_featured": "https:\/\/s3.amazonaws.com\/assets.hotelcoupons.com\/properties\/ce7ee628\/smallFeatured\/7fb3f17d-sleep-inn-charlotte.jpg"
+    }],
+    "rate": "69.99",
+    "rate_pretty": "$69.99",
+    "rate_type": "dollar",
+    "recently_updated": false
+  }]
+}

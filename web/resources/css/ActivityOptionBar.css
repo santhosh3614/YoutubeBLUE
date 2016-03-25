@@ -1,0 +1,6 @@
+.ActivityOptionBar{}
+
+.ActivityOptionBar > .canvas{
+	height:100%;
+}
+
