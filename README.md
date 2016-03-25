@@ -1,12 +1,10 @@
 
-# HOTEL COUPONS MOBILE APP
+# Youtube BLUE
 
 This application is built on a framework that allows it to
 run as a web application hosted within a php container. It can 
 also be compiled and installed as an app on Android and/or 
 iOS devices using Phonegap/Cordova.
-
-<img src="https://github.dominionenterprises.com/TravelMediaGroup/matrix-mobileapp/blob/development/web/resources/screenshots/HotelCoupons-ScreenShots.jpg"/>
 
 
 ## Getting Started
@@ -34,11 +32,11 @@ To boot a simple ruby server (Mac ships with Ruby), cd.. into
 the root of this application and run:
 
 ```
-cd HotelCouponsMobile/
+cd YoutubeBLUE/
 ```
 
 ```
-HotelCouponsMobile > rake js:server
+YoutubeBLUE > rake js:server
 ```
 
 This will spawn a localhost server on port 3000 for 
@@ -56,7 +54,7 @@ such as 'HotelCoupons/' located in the /public root of your LAMP/MAMP or
 Apache server and access it by folder:
 
 ```
-http://localhost:8888/HotelCoupons
+http://localhost:8888/YoutubeBLUE
 ```
 
 #### Run from Device
@@ -102,7 +100,7 @@ index.html defines appconfig as:
 ```
 appconfig = {
 	version		: "1.0",
-    namespace	: "HotelCoupons",
+    namespace	: "YoutubeBLUE",
     charset		: "utf-8",
     environment	: "dev",			// <---- HERE
     theme		: "Default",
@@ -134,18 +132,18 @@ Here's what the URI end-point looks like for searching a list of properties:
 DATA:{
 	...,
 	...,
-	HOTEL_SEARCH : {
-	    dev: appconfig.apppath + "resources/data/hotel-search.json",
-	    staging: "http://127.0.0.1:8080/api/properties",
-	    test:"",
-	    prod:""
-	},
+	YOUTUBE_SEARCH : {
+      dev: appconfig.apppath + "resources/data/youtube-search-results.json?part={part}&order={order}&q={q}&key={key}&pageToken={pageToken}&maxResults={maxResults}",
+      staging: "https://www.googleapis.com/youtube/v3/search?part={part}&order={order}&q={q}&key={key}&pageToken={pageToken}&maxResults={maxResults}",
+      test:"https://www.googleapis.com/youtube/v3/search?part={part}&order={order}&q={q}&key={key}&pageToken={pageToken}&maxResults={maxResults}",
+      prod:"https://www.googleapis.com/youtube/v3/search?part={part}&order={order}&q={q}&key={key}&pageToken={pageToken}&maxResults={maxResults}"
+  },
 	...
 	...
 }
 ```
 
-'HOTEL_SEARCH' defines 4 uri's for each environment. Only the uri for
+'YOUTUBE_SEARCH' defines 4 uri's for each environment. Only the uri for
 the configured environment will be accessed in the deployed server.
 
 #### Verifying end-points
@@ -155,13 +153,13 @@ environments:
 Console Logging:
 ```
 //Outputs the whole configuration object with all URI's
-console.log(ROUTES.DATA.HOTEL_SEARCH)
+console.log(ROUTES.DATA.YOUTUBE_SEARCH)
 ```
 
 Resolving a URI dynamically in the console:
 ```
 //Outputs a resolved URI for the current environment
-var resolvedUrl = core.http.UrlRouter.resolve(ROUTES.DATA.HOTEL_SEARCH);
+var resolvedUrl = core.http.UrlRouter.resolve(ROUTES.DATA.YOUTUBE_SEARCH);
 console.log(resolvedUrl)
 ```
 
@@ -171,7 +169,7 @@ Using a WebAction request:
 var keywordStr = "Orlando, FL";
 
 var action = new core.http.WebAction(
-    ROUTES.DATA.HOTEL_SEARCH, {keyword:keywordStr}
+    ROUTES.DATA.YOUTUBE_SEARCH, {keyword:keywordStr}
 );
 
 action.invoke({
@@ -203,13 +201,11 @@ Please read for details on our code of conduct, and the process for submitting p
 ## Versioning
 
 Use [SemVer](http://semver.org/) for versioning. For the versions available, 
-see the [tags on this repository](https://github.dominionenterprises.com/TravelMediaGroup/matrix-mobileapp/tags). 
+see the(). 
 
 ## Authors
 
 * **Jason E. Smith (jaysmith024@gmail.com) ** - *Initial work*
-
-See also the list of [contributors](https://github.dominionenterprises.com/TravelMediaGroup/matrix-mobileapp/contributors) who participated in this project.
 
 ## License
 
