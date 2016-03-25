@@ -33,6 +33,8 @@ namespace("apps.SearchResults",
     initialize : function() {
         this.parent();
         Session.State.resetSearchResults = true;
+        this.filterOptionsModal = this.modalize(this.querySelector("#search-filter-dialog"));
+
         this.filterButton   = this.querySelector(".filters.button");
         this.titleText      = this.querySelector(".titlebar .title");
         this.contentPanel   = this.querySelector(".panel-content");
@@ -41,9 +43,7 @@ namespace("apps.SearchResults",
         this.filterDialog   = this.querySelector("#search-filter-dialog");
         this.count          = app.constants.youtube.MAX_RESULTS;
         this.page           = 0;
-        this.filterOptionsModal = this.modalize(this.querySelector("#search-filter-dialog"));
 
-        
         
         this.resultLists.addEventListener("click", this.onVideoItemClicked.bind(this), false);
         this.filterButton.addEventListener("click", this.onShowFilterDialog.bind(this), false);
@@ -286,9 +286,7 @@ namespace("apps.SearchResults",
         this.querySelector(".results-listing").innerHTML = "";
     },
 
-    /*getKeyword : function() {
-        return this.keyword||"";
-    },*/
+
 
     /**
      * Resets the search Iterator action
@@ -343,10 +341,18 @@ namespace("apps.SearchResults",
         //alert(this.filterButton.prototype.setLabel)
     },
 
+
+    /**
+     * Fired when the search results are modified. Will delete the 
+     * current search iterator and create a new instance and invoke
+     * the search again.
+     * @param {JSON} data - The json result set
+     */
     onSearchFiltersChanged : function(e) {
         this.deleteResultsIterator();
         this.onSearch()
     },
+
 
     /**
      * Helper for rendering title bar context
@@ -355,6 +361,7 @@ namespace("apps.SearchResults",
     renderTitle : function(data) {
         this.titleText.innerHTML = data.pageInfo.totalResults + " " + app.labels.RESULTS_TITLE;
     },
+    
     
     /**
      * Triggered if there was a net failure

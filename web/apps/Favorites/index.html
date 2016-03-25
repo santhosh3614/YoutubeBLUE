@@ -23,7 +23,7 @@
 									</span>
 									<div class="item-info">
 										<div class="deletion-checkbox">
-											<input type="checkbox" data-video-id="[id]" data-coupon-type="clipping"/>
+											<input type="checkbox" data-video-id="[id]" data-video-type="clipping"/>
 										</div>
 										<div class="description">
 											<div class="person name heading">[snippet.title]</div>
@@ -46,8 +46,8 @@
 
 
 
-		<div class="results-listing recent-coupons">
-			<script id="recent-coupons-template" type="text/x-kruntch-template">
+		<div class="results-listing recent-videos">
+			<script id="recent-videos-template" type="text/x-kruntch-template">
 				<if condition="this.result.items.length > 0">
 					<div>
 						<div>Recently Viewed ([result.items.length])</div>
@@ -62,7 +62,7 @@
 									</span>
 									<div class="item-info">
 										<div class="deletion-checkbox">
-											<input type="checkbox" data-video-id="[id]" data-coupon-type="viewed"/>
+											<input type="checkbox" data-video-id="[id]" data-video-type="viewed"/>
 										</div>
 										<div class="description">
 											<div class="person name heading">[snippet.title]</div>

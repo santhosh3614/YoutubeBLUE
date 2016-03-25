@@ -58,6 +58,11 @@ namespace("apps.VideoDetails",
     },
 
     
+
+    /**
+     * Triggered when this.commentsButton (see cctor) is clicked on.
+     * @param {Event} e - The click event
+     */
     onViewComments : function(e){
         application.showAppSpinner();
         var _videoId = this.data.items[0].id;
@@ -77,6 +82,12 @@ namespace("apps.VideoDetails",
     },
 
 
+
+    /**
+     * Triggered when the video comments are downloaded successfully
+     * @param {XmlHttpRequest} response - The xhr response
+     * @param {string} responseText - The xhr responseText
+     */
     onVideoCommentsLoaded : function(response, responseText){
         try{
             var data = JSON.parse(responseText);
@@ -91,12 +102,22 @@ namespace("apps.VideoDetails",
         }
     },
 
+
+    /**
+     * Triggered when the video comments fails to download
+     * @param {XmlHttpRequest} response - The xhr response
+     * @param {string} responseText - The xhr responseText
+     */
     onVideoCommentsLoadFailure : function(response, responseText){
         console.error("failure to retrieve video comments", response, responseText);  
     },
 
 
 
+    /**
+     * Triggered when the video comments are downloaded and ready to render
+     * @param {Object} data - The data to render
+     */
     onRenderComments : function(data){
         this.commentsButton.prototype.setLabel(data.pageInfo.totalResults);
         this.renderTemplate(data, "comments-template");

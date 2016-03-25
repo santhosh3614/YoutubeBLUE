@@ -28,17 +28,16 @@ namespace("apps.Favorites",
             template:this.querySelector("#favorites-results-template"),
             div:".results-listing.favorites"
         };
-        this.templates["recent-coupons"] = {
-            template:this.querySelector("#recent-coupons-template"),
-            div:".results-listing.recent-coupons"
+        this.templates["recent-videos"] = {
+            template:this.querySelector("#recent-videos-template"),
+            div:".results-listing.recent-videos"
         };
 
         this.selectionsModel = new core.data.Accessor({count : 0});
         this.selectionsModel.addEventListener("changed", this.onSelectionCountChanged.bind(this),false);
 
-        //this.peopleLists = this.querySelector(".results-listing.people");
-        this.addEventListener("click", this.onCouponItemClicked.bind(this), false);
-        this.clearButton.addEventListener("click", this.onClearSelectedCoupons.bind(this), false);
+        this.addEventListener("click", this.onItemClicked.bind(this), false);
+        this.clearButton.addEventListener("click", this.onClearSelections.bind(this), false);
     },
 
     onSelectionCountChanged : function(e){
@@ -51,24 +50,15 @@ namespace("apps.Favorites",
         }
     },
 
-    /*onClearCoupons : function(e){
-        var doit = confirm("Clear all recent and favorites?");
-        if(doit){
-            StorageManager.reset("coupon.clippings");
-            StorageManager.reset("coupon.recent");
-            StorageManager.persist();
-            this.onSearch(e);
-        }
-    },*/
 
-    onClearSelectedCoupons : function(e){
+    onClearSelections : function(e){
         var doit = confirm("Clear selected items ?");
         if(doit){
             var items = this.querySelectorAll(".deletion-checkbox input:checked");
             for(var i=0; i<=items.length-1; i++){
                 var item = items[i];
                 var id = item.getAttribute("data-video-id");
-                var type = item.getAttribute("data-coupon-type");
+                var type = item.getAttribute("data-video-type");
                 if(id){
                     if(type == "viewed"){
                         StorageManager.remove("videos.recent",true).where("$.id=='" + id + "'");
@@ -83,7 +73,7 @@ namespace("apps.Favorites",
     },
 
     
-    onCouponItemClicked : function(e){
+    onItemClicked : function(e){
         var target = this.getSearchTargetItem(e);
 
         //if(target && target.classList.contains("fa-phone-square")){return}
@@ -150,15 +140,6 @@ namespace("apps.Favorites",
 
     
     onSearch : function(e){
-        //alert("searching")
-        /*var keywordStr = e.data.keyword;
-        var action = new core.http.WebAction(ROUTES.DATA.HOTEL_SEARCH, {keyword:keywordStr});
-
-            action.invoke({
-                onSuccess  : this.onSearchLoaded.bind(this),
-                onFailure  : this.onSearchLoadedFailure.bind(this),
-                onRejected : this.onSearchLoadedFailure.bind(this)
-            });*/
         this.onSearchLoaded();
     },
     
@@ -175,34 +156,14 @@ namespace("apps.Favorites",
             }
         });
         this.onSelectionsChanged();
-        /*try{
-            var data = JSON.parse(responseText);
-            if(data && typeof data=="object"){
-                this.renderSearchResults(data);
-            }
-        }
-        catch(e){
-            alert("error getting search results");
-            console.error(e.message,responseText);
-        }*/
     },
     
     renderSearchResults : function(data){
-        this.renderTitle(data);
         this.renderTemplate(data, "favorites-results");
-
-        //this.selectionsModel.set("clippings", data.result.items.length);
     },
 
     renderRecentResults : function(data){
-        //this.renderTitle(data);
-        this.renderTemplate(data, "recent-coupons");
-
-        //this.selectionsModel.set("viewed", data.result.items.length);
-    },
-
-    renderTitle : function(data){
-        //this.titleText.innerHTML = "MY COUPONS"
+        this.renderTemplate(data, "recent-videos");
     },
     
     onSearchLoadedFailure : function(r, text){
