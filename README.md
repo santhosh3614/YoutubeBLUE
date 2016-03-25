@@ -10,7 +10,7 @@ DEMO:
 <a href="http://js.netai.net/YoutubeBlue">YoutubeBLUE Demo</a>
 
 
-<img src=""/>
+<img src="https://github.com/Nashorn/YoutubeBLUE/blob/master/web/resources/images/youtube/screenshots.png"/>
 
 
 ## Getting Started
