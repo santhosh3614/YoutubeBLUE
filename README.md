@@ -6,6 +6,10 @@ run as a web application hosted within a php container. It can
 also be compiled and installed as an app on Android and/or 
 iOS devices using Phonegap/Cordova.
 
+DEMO:
+<a href="http://js.netai.net/youtubeBLUE">YoutubeBLUE Demo</a>
+
+
 
 ## Getting Started
 
