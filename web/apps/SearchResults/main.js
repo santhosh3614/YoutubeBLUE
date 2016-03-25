@@ -33,8 +33,6 @@ namespace("apps.SearchResults",
     initialize : function() {
         this.parent();
         Session.State.resetSearchResults = true;
-        this.filterOptionsModal = this.modalize(this.querySelector("#search-filter-dialog"));
-
         this.filterButton   = this.querySelector(".filters.button");
         this.titleText      = this.querySelector(".titlebar .title");
         this.contentPanel   = this.querySelector(".panel-content");
@@ -43,14 +41,14 @@ namespace("apps.SearchResults",
         this.filterDialog   = this.querySelector("#search-filter-dialog");
         this.count          = app.constants.youtube.MAX_RESULTS;
         this.page           = 0;
-
-        
-        this.resultLists.addEventListener("click", this.onVideoItemClicked.bind(this), false);
-        this.filterButton.addEventListener("click", this.onShowFilterDialog.bind(this), false);
-        this.addEventListener("resetsearch", this.onResetSearchListings.bind(this), false);
+        this.filterOptionsModal = this.modalize(this.filterDialog);
 
         this.initializeTemplates();
         this.initializeSearchFilter();
+
+        this.resultLists.addEventListener("click", this.onVideoItemClicked.bind(this), false);
+        this.filterButton.addEventListener("click", this.onShowFilterDialog.bind(this), false);
+        this.addEventListener("resetsearch", this.onResetSearchListings.bind(this), false);
     },
 
 
