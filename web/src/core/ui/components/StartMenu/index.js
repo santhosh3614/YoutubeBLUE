@@ -66,7 +66,7 @@ namespace("core.ui.StartMenu",
         this.element.style[transform] = "translate3d(-" + wInnerWidth + "px, 0px, 0px)";
     },
 
-    renderDOMTree : function(){
+    /*renderDOMTree : function(){
         var el = this.element;
         var self=this;
         
@@ -110,7 +110,7 @@ namespace("core.ui.StartMenu",
         this.addClass("canvas", canvas);
         this.canvas = canvas;
         return el;
-    },
+    },*/
 
     onPress: function(){
         this.startCoords = this.dnd.getBoundingClientRect(this.element);
