@@ -7,7 +7,7 @@ also be compiled and installed as an app on Android and/or
 iOS devices using Phonegap/Cordova.
 
 DEMO:
-<a href="http://js.netai.net/YoutubeBlue">YoutubeBLUE Demo</a>
+<a href="http://js.netai.net/youtube">YoutubeBLUE Demo</a>
 
 
 <img src="https://github.com/Nashorn/YoutubeBLUE/blob/master/web/resources/images/youtube/screenshots.png"/>
@@ -50,7 +50,7 @@ the current folder.
 
 To access the app from your PC:
 ```
-http://localhost:3000
+http://localhost:3000/web
 ```
 
 
@@ -60,7 +60,7 @@ such as 'HotelCoupons/' located in the /public root of your LAMP/MAMP or
 Apache server and access it by folder:
 
 ```
-http://localhost:8888/YoutubeBLUE
+http://localhost:8888/YoutubeBLUE/web
 ```
 
 #### Run from Device
@@ -71,7 +71,7 @@ http://192.168.0.6:3000
 
 To access the app from your Android/iOS emulator:
 ```
-http://192.168.0.6:3000
+http://192.168.0.6:3000/web
 ```
 
 Where the ip is your IPv4 computer ip.
