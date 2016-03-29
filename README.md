@@ -128,11 +128,11 @@ All connections are defined in 'resources/data/routes.js'. This config
 defines service end-points for all possible environments. Only
 the configured environment URI will be accessed when deployed.
 
-Example: When connecting to get a list of properties for a video search, 1 of 4
+Example: When connecting to get a list of items for a video search, 1 of 4
 URI's would be accessed depending on what environment the application configured
 for.
 
-Here's what the URI end-point looks like for searching a list of properties:
+Here's what the URI end-point looks like for searching a list of items:
 
 ```
 DATA:{
@@ -172,10 +172,10 @@ console.log(resolvedUrl)
 
 Using a WebAction request:
 ```
-var keywordStr = "Orlando, FL";
+var keywordStr = "Movie Trailers";
 
 var action = new core.http.WebAction(
-    ROUTES.DATA.YOUTUBE_SEARCH, {keyword:keywordStr}
+    ROUTES.DATA.YOUTUBE_SEARCH, {q:keywordStr}
 );
 
 action.invoke({
