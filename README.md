@@ -2,9 +2,9 @@
 # Youtube BLUE
 
 This application is built on a framework that allows it to
-run as a web application hosted within a php/.net/node container. It can 
-also be compiled and installed as an app on Android and/or 
-iOS devices using Phonegap/Cordova.
+run offline from disk (file:///), as a web application (http://) 
+or on a native Android (.apk) and/or iOS (.ipa) device using 
+Phonegap or Cordova.
 
 DEMO:
 <a href="http://js.netai.net/youtube">YoutubeBLUE Demo</a>
