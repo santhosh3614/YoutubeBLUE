@@ -31,14 +31,17 @@
     user-select: text;
     background-color:transparent;
     top:0px;
+    padding: 0;
 }
 
 .WebApplication.VideoDetails .Video{
     color: white;
+    padding:0;
 }
 
 .WebApplication.VideoDetails .Video .avatar{
     cursor: default;
+    border:0;
 }
 
 
@@ -109,6 +112,7 @@
 
 .WebApplication.VideoDetails .Video .details.section{
     clear:both;
+    padding: 10px;
 }
 
 

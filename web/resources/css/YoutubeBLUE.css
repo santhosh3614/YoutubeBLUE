@@ -416,12 +416,12 @@ body > .canvas > #application-container{
 .application-container {
     background: rgba(0, 0, 0, 0.07) none repeat scroll 0 0;
     border-radius: 2px;
-    bottom: 6px;
-    left: 6px;
+    bottom: 0px;
+    left: 0px;
     overflow: hidden;
     position: absolute;
-    right: 6px;
-    top: 102px;
+    right: 0px;
+    top: 97px;
     z-index: 160;
 }
 
