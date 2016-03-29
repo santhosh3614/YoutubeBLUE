@@ -8,8 +8,8 @@ BUILDCONFIG = {
 	Input : "main.js",
 	
 	Output : {
-		SourcePath:"resources/build/HotelDetails.js",
-		CompressedPath: "resources/build/HotelDetails.min.js"
+		SourcePath:"resources/build/VideoDetails.js",
+		CompressedPath: "resources/build/VideoDetails.min.js"
 	},
 	
 	Verbos:true

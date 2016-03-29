@@ -8,8 +8,8 @@ BUILDCONFIG = {
 	Input : "main.js",
 	
 	Output : {
-		SourcePath:"resources/build/CouponClippings.js",
-		CompressedPath: "resources/build/CouponClippings.min.js"
+		SourcePath:"resources/build/Favorites.js",
+		CompressedPath: "resources/build/Favorites.min.js"
 	},
 	
 	Verbos:true
