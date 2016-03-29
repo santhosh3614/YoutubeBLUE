@@ -56,7 +56,7 @@ http://localhost:3000/web
 
 #### Run from LAMP/MAMP server
 Alternatively, you can copy the contents of the 'web/' folder into a folder 
-such as 'HotelCoupons/' located in the /public root of your LAMP/MAMP or 
+such as 'YoutubeBlue/' located in the /public root of your LAMP/MAMP or 
 Apache server and access it by folder:
 
 ```
@@ -87,7 +87,7 @@ NOTE: Some VPN clients will prevent the device from connecting.
 ### Deployment Environment
 
 #### Define your deployment environment
-The 'HotelCoupons' app supports 4 different deployment environments:
+The 'YoutubeBlue' app supports 4 different deployment environments:
 * 'dev'
 * 'staging'
 * 'test'
@@ -128,7 +128,7 @@ All connections are defined in 'resources/data/routes.js'. This config
 defines service end-points for all possible environments. Only
 the configured environment URI will be accessed when deployed.
 
-Example: When connecting to get a list of properties for a hotel search, 1 of 4
+Example: When connecting to get a list of properties for a video search, 1 of 4
 URI's would be accessed depending on what environment the application configured
 for.
 
