@@ -1,9 +1,0 @@
-{
-    "result": {
-        "recent_apps":[   
-            {"name": "By Phone", "time":"9am-5pm, Mon-Fri", "appref":"apps/Profile"},
-            {"name": "Email", "time":"24hrs", "appref":"apps/Messages"}
-        ],
-        "currently_running":[]
-    }
-}

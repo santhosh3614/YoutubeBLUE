@@ -1,7 +1,0 @@
-{
-    "result": [
-        {"name": "Notification Sample Item 1", "time":"12 mins ago", 	"appref":"apps/Posts"},
-        {"name": "Notification Sample Item 2", "time":"Now", 			"appref":"apps/Messages"},
-        {"name": "Notification Sample Item 3", "time":"20 mins ago", 	"appref":"apps/Messages"}
-    ]
-}
