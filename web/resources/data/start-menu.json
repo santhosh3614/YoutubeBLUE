@@ -1,0 +1,24 @@
+{
+    "result":[
+        {
+            "appref":"apps/Desktop",
+            "font_icon":"fa-home",
+            "label":"Home Screen"
+        },
+        {
+            "appref":"apps/Favorites",
+            "font_icon":"fa-heart",
+            "label":"My Videos"
+        },
+        {
+            "appref":"apps/Privacy",
+            "font_icon":"fa-shield",
+            "label":"Privacy"
+        },
+        {
+            "appref":"apps/About",
+            "font_icon":"fa-info-circle",
+            "label":"About"
+        }
+    ]
+}

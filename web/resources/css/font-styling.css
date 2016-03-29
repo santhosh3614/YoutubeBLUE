@@ -1,0 +1,37 @@
+.text {
+	font-family: OpenSans;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.title {
+	font-size: 14px;
+}
+
+.window-title {
+	color: #515254;
+    font-size: 12px;
+    line-height: 42px;
+    padding-left: 12px;
+    text-transform: uppercase;
+}
+
+.heading1 {
+	font-weight:bold;
+	font-size: 14px;
+}
+.heading2 {
+	font-weight:bold;
+	font-size: 18px;
+}
+label {
+	font-weight: bold;
+	font-size: 12px;
+}
+.label {
+	color: #ffffff;
+    display: block;
+    font-size: 7px;
+    margin-top: 7px;
+    text-align: center;
+}

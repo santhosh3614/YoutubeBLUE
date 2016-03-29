@@ -1,0 +1,12 @@
+{
+    "result":{
+        "total_records_found":12,
+        "page_number":1,
+        "items_per_page":3,
+        "items":[
+            {"name":"jason"},
+            {"name":"smith"},
+            {"name":"jeremiah"}
+        ]
+    }
+}

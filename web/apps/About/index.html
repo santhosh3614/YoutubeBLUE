@@ -1,0 +1,97 @@
+<div namespace="core.ui.WindowPanel">
+	<div class="titlebar">
+		<span class="title">ABOUT</span>
+		
+		<div class="panel-options">
+			<span class="close button fa fa-close"></span>
+		</div>
+	</div>
+
+	<div class="panel-content">
+
+		<div id="about-info-panel" style="margin-bottom: 30px; margin-top: 10px; background: white none repeat scroll 0% 0%; padding: 10px; border-radius: 3px; box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); overflow: hidden;">
+			<script id="about-info-template" type="text/x-kruntch-template">
+				<div>
+				    <h2 style="font-size: 14px;">[app_name]</h2>
+				  	<div style="overflow:hidden;">
+						  <div style="float:left;" id="app-version">Verison: [app_version]</div>
+						  <div style="margin-left: 20px; float: right;" id="build-date">Build Date: [build_date]</div>
+				  	</div>  
+				  	<div style="clear: both; margin-top: 16px; border-top: 1px solid lightgray; padding-top: 6px;" id="platforms">
+				  		<div style="margin-bottom: 8px;text-transform: uppercase;">Platform Support: </div>
+					  	<for each="supported_platforms">
+						  	<span class="fa fa-fw [$] platform"></span>
+						</for>
+					</div>
+					<div style="margin-top:20px;text-transform: uppercase;">What's new in [app_version]:</div>
+					<for each="whats_new">
+					  	<div style="font-family: OpenSans; line-height: 20px; padding-left: 20px;">* [$]</div>
+					</for>
+				</div>
+			</script>
+  		</div>
+
+		<div class="about-sections heading">Youtube BLUE</div>
+		<div class="about-body-text">
+			<p>
+				Youtube BLUE is a conceptual engineering exercise to demonstrate architecture and engineering ability. Although this product does connect to the "Youtube Data API V3", This is not a real venture and not commercially or publicly available to users, but limited to the reviewers, Banno Inc.
+			</p>
+		</div>
+
+		<div class="about-sections heading">Architecture</div>
+		<div class="about-body-text">
+			<p>
+				Youtube BLUE is powered by a simple framework based on the original Javascript fundamentals of native code structuring using the powerful namespace() method to define Classes, Inheritance-chains,
+				Mixin Traits, and most importantly custom HTML Component Classes.
+			</p>
+			<p>
+				The structural design of the code is different from several apis and frameworks you've already seen. This framework has been refined for over 12 years whereas some of the newer frameworks have just began their life and experience.
+			</p>
+			<p>
+				Code-named, 'Rhino': Rhino is based on the idea of following w3c specs and recommendations when possible. The idea is to build a UI Toolkit that will limit the learning curve and leverage the existing w3c documentation.
+			</p>
+		</div>
+
+		<div class="about-sections heading">Differences</div>
+		<div class="about-body-text">
+			<p>
+				JQuery is an API. ExtJS is beginning to show it's limits and poor design due to it's massively complex engine generating bloated DOM code and focuses more on tabular data models and UI's with a CRUD UX.
+			</p>
+			<p>
+				Angular recently stepped into the scene and already shows where it's strengths are...and it's weakness. Angular has a powerful data binding mechanism but at the cost of expensive property watchers burning your cpu cycles and eating up ram and as stated in their documentation: "The runtime performance will vary depending on the number and complexity of bindings on the page". They
+				claim to build "snappy" apps with hundreds of thousands of bindings, but failed to mention that
+				if those bindings are not active, ofcourse CPU will not be affected only ram. But as soon as
+				hundreds of thousands of bindings become active together......hmmmmm, there will be some BSOD's or
+				cases where the app is unusable, what a horrible statement to make so openly.
+			</p>
+			<p>
+				Angular was created by a group of Google developers. Engineers usually accept what a lead or director recommends and run with the ball. But has anyone recently looked at how bad of a design Google Analytics is? Not only does the API a hot steaming pile, their documentation is daunting and the UX reporting experience requires training to grasp reports. It does not mean that because a brand introduces something into the market that it is the way to go. Be a thinker.
+			</p>
+			<p>
+				Angular also introduces their own "ng-" attribute declaration and custom html tags, binding directives, controllers, deep linking, components, localization, injections...Let's just say that you need full training to use just a third (1/3) of the features properly. And all for what? Angular documentation states that Angular excels at form-based apps that have heavy CRUD screens but may not be good for some more contextually different, such as game development.
+			</p>
+			<p>
+				Angular also introduces their own "controller, model, view, template" concept marketing their MVVM, MVC architecture. This means new parts to learn about on a micro-mvc level using their custom syntax modeling approach, custom tags, and custom templating schemes....
+			</p>
+		</div>
+
+		<div class="about-sections heading">Introducing the "Rhino Engine"</div>
+		<div class="about-body-text">
+			<p>
+				Youtube BLUE was graphically designed, spliced, coded and programmed in 3 1/2 full days (approx: 27hrs total development time) including learning-curve time for YouTube Data API. All while supporting several major features, bug fixing, server deployment and git-work.
+			</p>
+			<p>
+				The Rhino Engine is over 12 years old, it came out of IBM in early 2000 and was matured later at WeightWatchers.com and Situated Research LLC, an in-house R&D firm by a group of enthusiasts. It has silently laid in the sun under the trees, bathing in mud and grunting with anticipatation to be revealed as a true beast for Mobile/Web app development.
+			</p>
+			<p>
+				Engineered from the ground up, Rhino uses simple and limited parts in it's engine. It offers just one core method out of the box called namespace() -- where Classes are forged and inheritance-chains are established to share commonality within families and traits as reusable modules across familes of Classes. A true prototypal engine. It can be used to model simple objects without UI's such as a "Bank Transfer" (DAO) or things requiring a UI such as a customized Toggle Switch (custom HTML Component) or even a Warrior character Class for overhead/sidescrolling 2D game development.
+			</p>
+			<p>
+				Rhino does not rely internally on binders or controllers or models but transparently embeds the idea of MVC into a single object and allows the developer to rely on skill to achieve sophistication when desired, so there are no memory leaks or silently burning CPU cycles.
+			</p>
+			<p>
+				Rhino relies on pure HTML5, CSS3 and native Javascript coding experience. Unlike Angular, there are no custom tag/element schemas to learn, no binders, no seperate controllers and views and templates, localization engines, custom tag attributes...no leaks. Rhino is blazing fast, amazingly simple, having few parts but the power of an inline-6 to build CRUD apps, games and mobile Cordova apps for the Android and iOS app-store all while supporting the ability for those apps to run on the web, from disk, and disconnected from a wifi/lan connection because it relies on data, not URI connections.
+			</p>
+		</div>
+	</div>
+</div>
