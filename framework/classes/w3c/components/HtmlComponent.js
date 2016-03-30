@@ -352,7 +352,7 @@ namespace("w3c.HtmlComponent", {
 	 		}
 	 	}
 	 },
-	 
+	
 	set : function(accessor){},
 	
 	get : function(keypath, accessor, e){},

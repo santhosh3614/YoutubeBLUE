@@ -71,7 +71,8 @@ namespace("apps.SearchResults",
      */
     initializeSearchFilter : function(){
         var filters = {
-            order  : app.constants.youtube.ORDER_BY
+            order  : app.constants.youtube.ORDER_BY,
+            count  : app.constants.youtube.MAX_RESULTS
         };
 
         this.mFilter = new core.data.Accessor(filters);
@@ -265,8 +266,8 @@ namespace("apps.SearchResults",
             this.__iterator = new core.http.WebIterator(uri, {
                 //keyword : this.getKeyword(),
                 part:"snippet",
-                count : this.count,
-                maxResults : this.count,
+                count : this.mFilter.data.count,
+                maxResults : this.mFilter.data.count,
                 page : this.page,
                 q : this.keyword,
                 key:app.constants.youtube.KEYS.COMMON.YOUTUBE_API,
@@ -310,9 +311,10 @@ namespace("apps.SearchResults",
      */
     onSearchLoaded : function(response, data) {
         var msg = this.querySelector("#paging-message");
+        var count = this.mFilter.data.count;
         var action = this.getResultsIterator();
         this.spinner.style.display="none";
-        msg.innerHTML = app.labels.SHOWING + " " + (action.currentPage()*this.count) + (" of " + action.totalPages()*this.count)
+        msg.innerHTML = app.labels.SHOWING + " " + (action.currentPage()*count) + (" of " + action.totalPages()*count)
         try{
             //var data = JSON.parse(responseText);
             if(data && typeof data=="object"){

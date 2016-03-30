@@ -1,3 +1,6 @@
+//=require src/core/traits/HandlePanelCloseButton.js
+//=require src/core/traits/AutomaticallyOpenHelpWizardOnce.js
+
 //=require src/core/ui/components/StartMenu/index.js
 //=require src/core/ui/SearchBox.js
 //=require src/core/ui/SearchFilterDialog.js
@@ -5,8 +8,7 @@
 //=require src/core/ui/RecentAppsSelectBox.js
 //=require src/core/ui/Navigator.js
 //=require src/core/ui/SlidingMenu.js
-//=require src/core/traits/HandlePanelCloseButton.js
-//=require src/core/traits/AutomaticallyOpenHelpWizardOnce.js
+
 
 
 

@@ -1874,7 +1874,7 @@ namespace("w3c.HtmlComponent", {
 	 		}
 	 	}
 	 },
-	 
+	
 	set : function(accessor){},
 	
 	get : function(keypath, accessor, e){},
@@ -2658,12 +2658,15 @@ StorageManager = {
 namespace("core.data.Accessor", {
     '@traits' : [new Observer],
 
-  list:{},
-  
+    list:{},
+    subscribers: {},
+    observations: [],
+
     initialize : function(data) {
         this.path = "";
         this.data = data;
-        this.subscribers = {};
+        delete this.subscribers;
+        delete this.observations;
     },
     setPath : function(p) {
         this.path += p
@@ -2672,23 +2675,30 @@ namespace("core.data.Accessor", {
         return this.path
     },
     resolve : function(path, obj) {
-        var scope = obj || window;
-        var nsParts = path.split(/\./);
-        //console.warn(nsParts)
-        for (var i = 0; i <= nsParts.length - 1; i++) {
-            if (i >= nsParts.length - 1) {
-                scope = scope[nsParts[i]];
-                break;
-            } else {
-                scope = scope[nsParts[i]];
-            }
-            //console.info(scope)
-        };
-        var a = new core.data.Accessor(scope);
-        var prefix = (this.getPath().length > 0) ? this.getPath() + "." : "";
-        a.setPath(prefix + path);
-        a.parent = this;
-        return a;
+        var list = this.constructor.prototype.list;
+
+        if (!list[path]) {
+          var scope = obj || window;
+          var nsParts = path.split(/\./);
+          //console.warn(nsParts)
+          for (var i = 0; i <= nsParts.length - 1; i++) {
+              if (i >= nsParts.length - 1) {
+                  scope = scope[nsParts[i]];
+                  break;
+              } else {
+                  scope = scope[nsParts[i]];
+              }
+              //console.info(scope)
+          };
+          var a = new core.data.Accessor(scope);
+          var prefix = (this.getPath().length > 0) ? this.getPath() + "." : "";
+          a.setPath(prefix + path);
+          a.parent = this;
+          return a;
+        }
+        else{
+          return list[path];
+        }
     },
 
     get : function(path) {
@@ -2712,8 +2722,37 @@ namespace("core.data.Accessor", {
         }
     },
 
+    /*listen : function(type, func, bool){
+      core.data.Accessor.prototype.addEventListener(type, func, bool);
+    },
+
+    dispatch : function(type, data){
+      core.data.Accessor.prototype.dispatchEvent(type, data);
+    },*/
+
     set : function(path, val, _owner) {
         _owner = _owner||null;
+        if(arguments.length==1){
+          var _old = this.data;
+          var _new = arguments[0];
+          this.data = _new;
+          this.dispatchEvent("changed", {
+              newvalue : _new,
+              oldvalue : _old,
+              key : this.path,
+              owner:_owner
+          });
+          this.dispatchEvent("changed:" + this.path, {
+              newvalue : _new,
+              oldvalue : _old,
+              key : this.path,
+              owner:_owner
+          });
+        }
+
+        else{
+
+        
         var a = this;
         var old = a.data[path];
         a.data[path] = val;
@@ -2727,6 +2766,7 @@ namespace("core.data.Accessor", {
             key : path,
             owner:_owner
         });
+
         if(this.path){
           //if(!p){return a}
           this.dispatchEvent("changed:" + this.path, {
@@ -2743,6 +2783,7 @@ namespace("core.data.Accessor", {
           });
         }
         return a
+      }
     },
   
     where : function(exp){

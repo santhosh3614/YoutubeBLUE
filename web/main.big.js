@@ -1,3 +1,64 @@
+/**
+ * The HandlePanelCloseButton constructor runs during parent app initialize().
+ * Hanles the closing of panels globally.
+ * @example
+ * var app = new apps.SearchResults;  // <-- all traits are initialized here as well
+ * @return {core.ui.WebApplication}
+ */
+HandlePanelCloseButton = {
+    initialize : function(){
+        this.parent()
+        this.addEventListener("close", this.onClosePanel.bind(this), false);
+    },
+
+    /**
+     * Triggered when user clicks the 'X' of the current app/window
+     * @param {Event} e - The click event
+     */
+    onClosePanel : function(){
+        history.back(-1)    
+    }
+};
+
+/**
+ * The AutomaticallyOpenHelpWizardOnce constructor runs during parent app initialize()
+ * This trait will check if the auto help wizard have already been seen by
+ * the user and will set a flag to not show it again.
+ * @example
+ * var app = new apps.SearchResults;  // <-- all traits are initialized here as well
+ * @return {core.ui.WebApplication}
+ */
+AutomaticallyOpenHelpWizardOnce = {
+    initialize : function(){
+        this.parent()
+        if(!this.isAutoHelpWizardDisabled()){
+            this.setAutoHelpWizardEnabled(false);
+            this.showHelpWizard();
+        }
+    },
+
+    /**
+     * Helper used to determine if the 'disableHelpWizard' was set already
+     * @param {Event} e - The click event
+     */
+    isAutoHelpWizardDisabled : function(){
+        var res = StorageManager.find(this.namespace + ".disableHelpWizard");
+        if(res.length<=0){ return false }
+        else {
+            return res[0] == true
+        }
+    },
+
+    /**
+     * Helper used for setting the 'disableHelpWizard' flag
+     */
+    setAutoHelpWizardEnabled : function(){
+        StorageManager.store(this.namespace + ".disableHelpWizard",true);
+        StorageManager.persist();
+    }
+};
+
+
 namespace("core.ui.StartMenu", 
 {
     '@inherits'     : core.ui.WebComponent,
@@ -326,30 +387,62 @@ namespace("core.ui.SearchFilterDialog",
 
 
     initialize : function() {
-    	this.orderSelect 	= this.querySelector("select#order-filter");
+    	this.countSelect 	= this.querySelector("select#count-filter");
     	this.sortSelect 	= this.querySelector("select#sort-filter");
     	this.okButton		= this.querySelector(".ok.button");
     	this.cancelButton	= this.querySelector(".cancel.button");
+        this.helpButton     = this.querySelector(".panel-options .help.button");
 
+        this.helpButton.addEventListener("click", this.onShowHelpWizard.bind(this), false);
     	this.okButton.addEventListener("click", this.onSetFilterSelections.bind(this), false);
     	this.cancelButton.addEventListener("click", this.onUpdateViewFilters.bind(this), false);
     },
 
     onSetFilterSelections : function(e){
-    	//this.accessor.set("order", 	this.orderSelect.value, this);
     	this.accessor.set("order", 	this.sortSelect.value, this);
+        this.accessor.set("count",  this.countSelect.value, this);
     },
 
     onUpdateViewFilters : function(e){
     	if(e && e.owner == this){return}
-    	//this.orderSelect.value 	= this.accessor.data.order;
+
     	this.sortSelect.value 	= this.accessor.data.order;
+        this.countSelect.value   = this.accessor.data.count;
     },
 
     bind : function(accessor) {
     	this.accessor = accessor;
     	this.onUpdateViewFilters(null);
     	this.accessor.addEventListener("changed", this.onUpdateViewFilters.bind(this),false);
+    },
+
+    getStepsForHelpWizard : function(){
+       var steps = this.querySelectorAll("*[data-filter-helpindex]");
+       return steps;
+    },
+
+    /**
+     * Triggered when this.helpButton (see cctor) is clicked on.
+     * Calls showHelpWizard(<delay>) with a delay
+     * @param {Event} e - The click event
+     */
+    onShowHelpWizard : function(e){
+        this.showHelpWizard(200);
+    },
+
+    showHelpWizard : function(delay){
+        delay = (typeof delay=="number")?delay:2000;
+        var i = -1;
+        var help = application.getHelpWizard();
+        var steps = this.getStepsForHelpWizard()
+        help.setHardwareAcceleration(true);
+        application.element.appendChild(help.element);
+        setTimeout(function(){
+            help.activate();
+            help.setSteps(steps);
+            help.setIndex(i);
+            help.next();
+        },delay);
     }
 });
     
@@ -704,65 +797,6 @@ namespace("core.ui.SlidingMenu",
     }
 });
 
-/**
- * The HandlePanelCloseButton constructor runs during parent app initialize().
- * Hanles the closing of panels globally.
- * @example
- * var app = new apps.SearchResults;  // <-- all traits are initialized here as well
- * @return {core.ui.WebApplication}
- */
-HandlePanelCloseButton = {
-    initialize : function(){
-        this.parent()
-        this.addEventListener("close", this.onClosePanel.bind(this), false);
-    },
-
-    /**
-     * Triggered when user clicks the 'X' of the current app/window
-     * @param {Event} e - The click event
-     */
-    onClosePanel : function(){
-        history.back(-1)    
-    }
-};
-
-/**
- * The AutomaticallyOpenHelpWizardOnce constructor runs during parent app initialize()
- * This trait will check if the auto help wizard have already been seen by
- * the user and will set a flag to not show it again.
- * @example
- * var app = new apps.SearchResults;  // <-- all traits are initialized here as well
- * @return {core.ui.WebApplication}
- */
-AutomaticallyOpenHelpWizardOnce = {
-    initialize : function(){
-        this.parent()
-        if(!this.isAutoHelpWizardDisabled()){
-            this.setAutoHelpWizardEnabled(false);
-            this.showHelpWizard();
-        }
-    },
-
-    /**
-     * Helper used to determine if the 'disableHelpWizard' was set already
-     * @param {Event} e - The click event
-     */
-    isAutoHelpWizardDisabled : function(){
-        var res = StorageManager.find(this.namespace + ".disableHelpWizard");
-        if(res.length<=0){ return false }
-        else {
-            return res[0] == true
-        }
-    },
-
-    /**
-     * Helper used for setting the 'disableHelpWizard' flag
-     */
-    setAutoHelpWizardEnabled : function(){
-        StorageManager.store(this.namespace + ".disableHelpWizard",true);
-        StorageManager.persist();
-    }
-};
 
 
 

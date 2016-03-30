@@ -39,7 +39,6 @@
 		<div class="button-bar">
 			<span namespace="core.ui.Button" style="margin-left: 0px;" class="filters button" data-helpindex="1" data-helptext="Filter your results">
 				<span class="fa fa-sliders icon"></span>
-				<!--span class="label" style="float: left; font-size: 12px; margin-left: 12px; margin-top: 7px;"></span-->
 			</span>
 			<div id="paging-message" style="float: right; line-height: 43px; margin-right: 9px;"></div>
 		</div>
@@ -48,10 +47,13 @@
 			<div>
 				<div class="titlebar">
 					<span class="title">SEARCH FILTERS</span>
+					<div class="panel-options">
+						<span class="help button fa fa-question-circle" style="margin-right: 0px;"></span>
+					</div>
 				</div>
 
 				<div class="panel-content">
-					<div class="filter-field">
+					<div class="filter-field" data-filter-helpindex="1" data-helptext="Order your results">
 					    <label>Order By</label>
 					    <select id="sort-filter">
 					      <option value="date">Date</option>
@@ -59,10 +61,14 @@
 					      <option value="relevance">Relevance</option>
 					    </select>
 					</div>
-					<!--div class="filter-field">
-				    	<label>Show</label>
-				    	<input id="page-count-value" type="number" min="5" max="30" step="5" value ="5"/>
-				  	</div-->
+					<div class="filter-field" data-filter-helpindex="2" data-helptext="Show these many items">
+					    <label>Count</label>
+					    <select id="count-filter">
+					      <option value="10">10</option>
+					      <option value="20">20</option>
+					      <option value="30">30</option>
+					    </select>
+					</div>
 				</div>
 
 				<div class="button-bar">

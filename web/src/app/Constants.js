@@ -21,16 +21,7 @@ app.constants.google = {
             "GEOCODE_API": "AIzaSyBaCW-_AXERlGauLo-V3BIMVvof_2hHzlI",
             "MAPS_API" : "AIzaSyD7LMYcPKm4FpoMIODYDjTKx4tnUX3T5Qk"
         }
-    },
-	MAPS : {
-		SCROLLWHEEL : false,
-		ZOOM: 16
-	},
-	STREETVIEW : {
-		HEADING : 165,
-		PITCH : 0,
-		ZOOM : 1
-	}
+    }
 };
 
 

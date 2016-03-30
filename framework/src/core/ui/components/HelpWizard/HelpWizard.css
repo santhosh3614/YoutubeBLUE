@@ -3,7 +3,7 @@
     opacity: 0;
     position: absolute;
     transition: all 0.3s ease-out 0s;
-    z-index: 3000;
+    z-index: 700000;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -22,7 +22,7 @@
 	top: 0px;
 	width: 0px;
 	height: 0px;
-	z-index: 4000;
+	z-index: 700001;
 	background: rgba(255,255,255,.4);
 	transition:all .3s;
 	display:none;
@@ -36,7 +36,7 @@
     position: absolute; 
     color: white; 
     display: block; 
-    z-index: 4000; 
+    z-index: 700002; 
     bottom: 22px; 
     right: 29px;
 }
@@ -87,7 +87,7 @@
     right: auto;
     top: auto;
     border-radius:3px;
-	z-index:4005;
+	z-index:700003;
 }
 
 .HelpWizard .arrow:hover {
@@ -96,12 +96,12 @@
 
 .helpon_relative {
 	position:relative !important;
-	z-index:4001 !important;
+	z-index:700004 !important;
 }
 
 .helpon_static {
 	position:static !important;
-	z-index:4001 !important;
+	z-index:700004 !important;
 }
 
 .helpon_absolute{
@@ -111,7 +111,7 @@
 
 .helpon_fixed {
 	position:fixed !important;
-	z-index:4001 !important;
+	z-index:700004 !important;
 }
 
 
