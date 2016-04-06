@@ -304,8 +304,8 @@ namespace("apps.VideoDetails",
         var likeCount = parseInt(data.items[0].statistics.likeCount);
         var dislikeCount = parseInt(data.items[0].statistics.dislikeCount);
 
-        likeCount = abbrNum(likeCount,1);
-        dislikeCount = abbrNum(dislikeCount,1);
+        likeCount = Math.abbrNum(likeCount,1);
+        dislikeCount = Math.abbrNum(dislikeCount,1);
         this.likeButton.prototype.setLabel(likeCount);
         this.unlikeButton.prototype.setLabel(dislikeCount);
         this.renderTemplate(data, "video-details");

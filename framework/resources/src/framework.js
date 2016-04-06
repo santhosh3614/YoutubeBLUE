@@ -74,6 +74,45 @@ Math.uuid2 = function() {
   }).toUpperCase();
 };
 
+
+
+
+Math.abbrNum = function(number, decPlaces) {
+    // 2 decimal places => 100, 3 => 1000, etc
+    decPlaces = Math.pow(10,decPlaces);
+
+    // Enumerate number abbreviations
+    var abbrev = [ "k", "m", "b", "t" ];
+
+    // Go through the array backwards, so we do the largest first
+    for (var i=abbrev.length-1; i>=0; i--) {
+
+        // Convert array index to "1000", "1000000", etc
+        var size = Math.pow(10,(i+1)*3);
+
+        // If the number is bigger or equal do the abbreviation
+        if(size <= number) {
+             // Here, we multiply by decPlaces, round, and then divide by decPlaces.
+             // This gives us nice rounding to a particular decimal place.
+             number = Math.round(number*decPlaces/size)/decPlaces;
+
+             // Handle special case where we round up to the next abbreviation
+             if((number == 1000) && (i < abbrev.length - 1)) {
+                 number = 1;
+                 i++;
+             }
+
+             // Add the letter for the abbreviation
+             number += abbrev[i];
+
+             // We are done... stop
+             break;
+        }
+    }
+
+    return number;
+};
+
 if (!Object.prototype.extend) {
     Object.defineProperty(Object.prototype, "extend", {
         enumerable : false,
@@ -901,20 +940,24 @@ Observer.prototype = {
 namespace('ui.models.ComponentModel', {
 	"@traits": [new Observer],
 	
-	preInitialize: function(data, element) {
+	/*preInitialize: function(data, element) {
 		this.resetListeners();
 		this.resetModel(data);
 		this.setElement(element);
 		this.initialize(data, element);
+	},*/
+
+	initialize: function(data, element) {
+		this.resetListeners();
+		this.resetModel(data);
+		this.setElement(element);
+		//this.initialize(data, element);
 	},
 	
 	setElement : function(element){
 		this.element = element||this;
 	},
 	
-	initialize : function (data, element) {
-	  	
-	},
     
 	start: function() {},
 	
@@ -1249,7 +1292,7 @@ w3c.CSSSelectors = {
 namespace("w3c.Node", {
     '@traits': [w3c.CSSSelectors],
 	
-    preInitialize : function(model, element){
+    /*preInitialize : function(model, element){
         this.element = element;
         this.model 	 = model;
         this.initialize(model, element)
@@ -1257,7 +1300,7 @@ namespace("w3c.Node", {
     
     initialize : function(model, element){
     	
-    },
+    },*/
     
     addEventListener : function(type, callback, capture, element){
     	capture = (typeof capture == "boolean") ? capture : false;
@@ -1559,7 +1602,10 @@ namespace("w3c.HtmlComponent", {
         return this;
     },
     
-    initialize : function() { return this },
+    initialize : function(model, element, domready_func) {
+        
+        return this;
+    },
     
     setDomReadyCallback : function(cb){
         this.domReadyHandler = cb;
@@ -1573,7 +1619,7 @@ namespace("w3c.HtmlComponent", {
         }
         try{
             this.initializeChildComponents();
-            this.initializeTraits(this.model);
+            this.initializeTraits();
             this.initialize(this.model, this.element);
         }catch(e){
             var msg = this.namespace + ".prototype.preInitialize() - " + e.message;
@@ -1916,6 +1962,7 @@ namespace("ui.Application",
         this.head           = document.getElementsByTagName("head")[0];
         this.configscript   = document.querySelector("script[id='config']")||
                               document.querySelector("script");
+        StorageManager.initialize(appconfig.namespace+"_"+ (appconfig.appid||Math.uuid2()) );
         
         if(window.addEventListener){
             window.addEventListener ("load", this.onLoad.bind(this), true);
@@ -1927,6 +1974,23 @@ namespace("ui.Application",
         this.setBrowserClassname();
         return this;
     },
+
+    /*initialize : function(model, element){
+        window.application  = this;
+        this.head           = document.getElementsByTagName("head")[0];
+        this.configscript   = document.querySelector("script[id='config']")||
+                              document.querySelector("script");
+        
+        if(window.addEventListener){
+            window.addEventListener ("load", this.onLoad.bind(this), true);
+            window.addEventListener ("hashchange", this.onLocationHashChanged.bind(this), true);
+        }
+        this.parent(model, element);
+        this.setSpinner();
+        this.showSpinner();
+        this.setBrowserClassname();
+        return this;
+    },*/
     
     setSpinner : function (){
         var el = '<div class="bubblingG">\
@@ -2652,8 +2716,6 @@ StorageManager = {
   }
 };
 
-//var list={};
-
 
 namespace("core.data.Accessor", {
     '@traits' : [new Observer],
@@ -2678,9 +2740,8 @@ namespace("core.data.Accessor", {
         var list = this.constructor.prototype.list;
 
         if (!list[path]) {
-          var scope = obj || window;
+          var scope = obj || this.data||window;
           var nsParts = path.split(/\./);
-          //console.warn(nsParts)
           for (var i = 0; i <= nsParts.length - 1; i++) {
               if (i >= nsParts.length - 1) {
                   scope = scope[nsParts[i]];
@@ -2688,7 +2749,6 @@ namespace("core.data.Accessor", {
               } else {
                   scope = scope[nsParts[i]];
               }
-              //console.info(scope)
           };
           var a = new core.data.Accessor(scope);
           var prefix = (this.getPath().length > 0) ? this.getPath() + "." : "";
@@ -2703,9 +2763,7 @@ namespace("core.data.Accessor", {
 
     get : function(path) {
         var list = this.constructor.prototype.list;
-        //return this.resolve(path,this.data)
         if (!list[path]) {
-            //console.warn("path",path)
             var exp = new Function("$", "return $." + path);
             var r = exp(this.data);
             var a = new core.data.Accessor(r);
@@ -2717,18 +2775,9 @@ namespace("core.data.Accessor", {
             a.parent = this;
             return a;
         } else {
-            //console.info("path",path)
             return list[path];
         }
     },
-
-    /*listen : function(type, func, bool){
-      core.data.Accessor.prototype.addEventListener(type, func, bool);
-    },
-
-    dispatch : function(type, data){
-      core.data.Accessor.prototype.dispatchEvent(type, data);
-    },*/
 
     set : function(path, val, _owner) {
         _owner = _owner||null;
@@ -2749,40 +2798,37 @@ namespace("core.data.Accessor", {
               owner:_owner
           });
         }
-
-        else{
-
-        
-        var a = this;
-        var old = a.data[path];
-        a.data[path] = val;
-        var p = this;
-        do {
-            p = p.parent
-        } while(p && p.parent)
-        this.dispatchEvent("changed", {
-            newvalue : val,
-            oldvalue : old,
-            key : path,
-            owner:_owner
-        });
-
-        if(this.path){
-          //if(!p){return a}
-          this.dispatchEvent("changed:" + this.path, {
+        else {        
+          var a = this;
+          var old = a.data[path];
+          a.data[path] = val;
+          var p = this;
+          do {
+              p = p.parent
+          } while(p && p.parent)
+          this.dispatchEvent("changed", {
               newvalue : val,
               oldvalue : old,
-              key : this.path,
+              key : path,
               owner:_owner
           });
-          this.dispatchEvent("changed:" + (this.path + "." + path), {
-              newvalue : val,
-              oldvalue : old,
-              key : (this.path + "." + path),
-              owner:_owner
-          });
-        }
-        return a
+
+          if(this.path){
+            //if(!p){return a}
+            this.dispatchEvent("changed:" + this.path, {
+                newvalue : val,
+                oldvalue : old,
+                key : this.path,
+                owner:_owner
+            });
+            this.dispatchEvent("changed:" + (this.path + "." + path), {
+                newvalue : val,
+                oldvalue : old,
+                key : (this.path + "." + path),
+                owner:_owner
+            });
+          }
+          return a
       }
     },
   
@@ -6393,6 +6439,7 @@ namespace("core.ui.Notification", {
         this.titleNode = this.querySelector(".notification-title");
         this.msgNode = this.querySelector(".notification-message");
         this.iconNode = this.querySelector(".icon");
+
         this.appref = model.data.appref;
         this.forceclose = model.data.forceclose;
         this.titleNode.innerHTML = model.data.title||model.data.type;
@@ -6838,24 +6885,14 @@ UrlHashState = {
             var appinfo     = rison.decode(decodeURIComponent(currentHash));
 
             if(!appinfo || !appinfo.appref){
-                window.location.hash=defaultHashPath;
+              window.location.hash=defaultHashPath;
             }
             else if(appinfo && appinfo.appref && appinfo.appref.length>0){
-                var ns = appinfo.appref.replace("/",".");
-                var app = self.currentRunningApplication;
-                if(!app || app.namespace != ns){
-                    self.dispatchEvent("openapp",true,true,appinfo)
-                }
-                
-                /*if(/apps[\/|\.]Desktop/g.test(appinfo.appref)){
-                    self.dispatchEvent("showdashboard",true,true,{})
-                } else {
-                    var ns = appinfo.appref.replace("/",".");
-                    var app = self.currentRunningApplication;
-                    if(!app || app.namespace != ns){
-                        self.dispatchEvent("openapp",true,true,appinfo)
-                    }
-                }*/
+              var ns = appinfo.appref.replace("/",".");
+              var app = self.currentRunningApplication;
+              if(!app || app.namespace != ns){
+                  self.dispatchEvent("openapp",true,true,appinfo)
+              }
             }
         }.debounce(300), false);
 
@@ -6920,8 +6957,11 @@ namespace("framework.Application",
     onLine : true,
     isLoggedIn : true,
     
-    initialize : function() {
+    initialize : function(model, element) {
         var self = this;
+        this.parent(model, element);
+ 
+        
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
 
         console.info("DEVICE RESOLUTION:", window.innerWidth + " x " + window.innerHeight);
@@ -6956,7 +6996,7 @@ namespace("framework.Application",
         document.addEventListener("mozfullscreenchange", this.onFullscreenChanged.bind(this),false);
         document.addEventListener("MSFullscreenChange", this.onFullscreenChanged.bind(this),false);
         window.addEventListener("resize", this.onWindowResized.bind(this).debounce(700), false);
-        this.addEventListener("profileloaded",this.onApplicationProfileLoaded.bind(this), false);
+        this.addEventListener("sessionloaded",this.onApplicationSessionLoaded.bind(this), false);
         this.addEventListener("logout",this.onApplicationLogout.bind(this), false);
         this.addEventListener("releaseapp", this.onReleaseApp.bind(this), false);
 
@@ -7013,12 +7053,12 @@ namespace("framework.Application",
     onApplicationOpened : function(e){},
     
     
-    onApplicationProfileLoaded : function(){
+    onApplicationSessionLoaded : function(){
         var self=this;
         if(appconfig.appref){
             this.dispatchEvent("openapp",true,true,{appref:appconfig.appref})
-        } 
-        StorageManager.initialize(this.namespace+"_"+Session.State.AccountProfile.profile_id)
+        };
+        this.dispatchEvent("appready",true,true,{});
     },
     
     initializeHeartBeatMonitor : function(){
@@ -7177,23 +7217,17 @@ namespace("framework.Application",
     
     bootup : function(){
         var self=this;
+        
+        //just to get the css to load.
+        new core.ui.Notification({type:"Information", message:""},null);
+
         if(appconfig.appref){
             this.element.classList.add("spa");
-            setTimeout(function() {
-                new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
-                self.downloadProfile();
-                self.refreshRunningApplication();
-            },400)
         }
-        else{
-            setTimeout(function() {
-                new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
-                //self.initializeCarousel();
-                //self.initializeApplicationShortcuts();
-                self.downloadProfile();
-                self.refreshRunningApplication();
-            }, 400);
-        }
+        setTimeout(function() {
+            self.beginVisitorSession();
+            self.beginAppRefreshInterval();
+        },400);
     },
     
     onWindowResized : function(e){
@@ -7307,7 +7341,7 @@ namespace("framework.Application",
     },
 
     
-    refreshRunningApplication : function(){
+    beginAppRefreshInterval : function(){
         var self=this;
         setInterval(function(){
             if(self.currentRunningApplication && self.currentRunningApplication.isFocused()){
@@ -7320,22 +7354,22 @@ namespace("framework.Application",
         this.currentRunningApplication = app;
     },
     
-    downloadProfile : function(id, full){
+    beginVisitorSession : function(id, full){
         var uri = this.element.getAttribute("data-uri");
         var action = new core.http.WebAction(uri||ROUTES.DATA.PROFILE, {});
 
             action.invoke({
-                onSuccess  : this.onProfileLoaded.bind(this,full),
-                onFailure  : this.onProfileLoadedFailure.bind(this),
-                onRejected : this.onProfileLoadedFailure.bind(this)
+                onSuccess  : this.onVisitorSessionLoaded.bind(this,full),
+                onFailure  : this.onVisitorSessionFailure.bind(this),
+                onRejected : this.onVisitorSessionFailure.bind(this)
             });
     },
     
-    onProfileLoadedFailure : function(r,text){
-        console.error("failed to load users profile: " + text, r);
+    onVisitorSessionFailure : function(r,text){
+        console.error("failed to load visitor profile: " + text, r);
     },
     
-    onProfileLoaded : function(full,response, responseText){
+    onVisitorSessionLoaded : function(full,response, responseText){
         try{
             var data = JSON.parse(responseText);
             if(typeof data == "object"){
@@ -7353,7 +7387,7 @@ namespace("framework.Application",
         if(Session) {
             Session.State.AccountProfile = data;
             Session.State.CurrentProfile = data;
-            this.dispatchEvent("profileloaded", true, true, {profile:data});
+            this.dispatchEvent("sessionloaded", true, true, {profile:data});
         }
     },
 

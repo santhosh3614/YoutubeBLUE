@@ -19,6 +19,11 @@
             "appref":"apps/About",
             "font_icon":"fa-info-circle",
             "label":"About"
+        },
+        {
+            "appref":"apps/Login",
+            "font_icon":"fa-info-circle",
+            "label":"Login"
         }
     ]
 }

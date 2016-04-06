@@ -42,24 +42,14 @@ UrlHashState = {
             var appinfo     = rison.decode(decodeURIComponent(currentHash));
 
             if(!appinfo || !appinfo.appref){
-                window.location.hash=defaultHashPath;
+              window.location.hash=defaultHashPath;
             }
             else if(appinfo && appinfo.appref && appinfo.appref.length>0){
-                var ns = appinfo.appref.replace("/",".");
-                var app = self.currentRunningApplication;
-                if(!app || app.namespace != ns){
-                    self.dispatchEvent("openapp",true,true,appinfo)
-                }
-                
-                /*if(/apps[\/|\.]Desktop/g.test(appinfo.appref)){
-                    self.dispatchEvent("showdashboard",true,true,{})
-                } else {
-                    var ns = appinfo.appref.replace("/",".");
-                    var app = self.currentRunningApplication;
-                    if(!app || app.namespace != ns){
-                        self.dispatchEvent("openapp",true,true,appinfo)
-                    }
-                }*/
+              var ns = appinfo.appref.replace("/",".");
+              var app = self.currentRunningApplication;
+              if(!app || app.namespace != ns){
+                  self.dispatchEvent("openapp",true,true,appinfo)
+              }
             }
         }.debounce(300), false);
 

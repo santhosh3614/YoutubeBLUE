@@ -14,6 +14,7 @@ namespace("ui.Application",
         this.head           = document.getElementsByTagName("head")[0];
         this.configscript   = document.querySelector("script[id='config']")||
                               document.querySelector("script");
+        StorageManager.initialize(appconfig.namespace+"_"+ (appconfig.appid||Math.uuid2()) );
         
         if(window.addEventListener){
             window.addEventListener ("load", this.onLoad.bind(this), true);
@@ -25,6 +26,23 @@ namespace("ui.Application",
         this.setBrowserClassname();
         return this;
     },
+
+    /*initialize : function(model, element){
+        window.application  = this;
+        this.head           = document.getElementsByTagName("head")[0];
+        this.configscript   = document.querySelector("script[id='config']")||
+                              document.querySelector("script");
+        
+        if(window.addEventListener){
+            window.addEventListener ("load", this.onLoad.bind(this), true);
+            window.addEventListener ("hashchange", this.onLocationHashChanged.bind(this), true);
+        }
+        this.parent(model, element);
+        this.setSpinner();
+        this.showSpinner();
+        this.setBrowserClassname();
+        return this;
+    },*/
     
     setSpinner : function (){
         var el = '<div class="bubblingG">\

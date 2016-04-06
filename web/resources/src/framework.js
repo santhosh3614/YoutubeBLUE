@@ -74,6 +74,45 @@ Math.uuid2 = function() {
   }).toUpperCase();
 };
 
+
+
+
+Math.abbrNum = function(number, decPlaces) {
+    // 2 decimal places => 100, 3 => 1000, etc
+    decPlaces = Math.pow(10,decPlaces);
+
+    // Enumerate number abbreviations
+    var abbrev = [ "k", "m", "b", "t" ];
+
+    // Go through the array backwards, so we do the largest first
+    for (var i=abbrev.length-1; i>=0; i--) {
+
+        // Convert array index to "1000", "1000000", etc
+        var size = Math.pow(10,(i+1)*3);
+
+        // If the number is bigger or equal do the abbreviation
+        if(size <= number) {
+             // Here, we multiply by decPlaces, round, and then divide by decPlaces.
+             // This gives us nice rounding to a particular decimal place.
+             number = Math.round(number*decPlaces/size)/decPlaces;
+
+             // Handle special case where we round up to the next abbreviation
+             if((number == 1000) && (i < abbrev.length - 1)) {
+                 number = 1;
+                 i++;
+             }
+
+             // Add the letter for the abbreviation
+             number += abbrev[i];
+
+             // We are done... stop
+             break;
+        }
+    }
+
+    return number;
+};
+
 if (!Object.prototype.extend) {
     Object.defineProperty(Object.prototype, "extend", {
         enumerable : false,
@@ -2652,8 +2691,6 @@ StorageManager = {
   }
 };
 
-//var list={};
-
 
 namespace("core.data.Accessor", {
     '@traits' : [new Observer],
@@ -2678,9 +2715,8 @@ namespace("core.data.Accessor", {
         var list = this.constructor.prototype.list;
 
         if (!list[path]) {
-          var scope = obj || window;
+          var scope = obj || this.data||window;
           var nsParts = path.split(/\./);
-          //console.warn(nsParts)
           for (var i = 0; i <= nsParts.length - 1; i++) {
               if (i >= nsParts.length - 1) {
                   scope = scope[nsParts[i]];
@@ -2688,7 +2724,6 @@ namespace("core.data.Accessor", {
               } else {
                   scope = scope[nsParts[i]];
               }
-              //console.info(scope)
           };
           var a = new core.data.Accessor(scope);
           var prefix = (this.getPath().length > 0) ? this.getPath() + "." : "";
@@ -2703,9 +2738,7 @@ namespace("core.data.Accessor", {
 
     get : function(path) {
         var list = this.constructor.prototype.list;
-        //return this.resolve(path,this.data)
         if (!list[path]) {
-            //console.warn("path",path)
             var exp = new Function("$", "return $." + path);
             var r = exp(this.data);
             var a = new core.data.Accessor(r);
@@ -2717,18 +2750,9 @@ namespace("core.data.Accessor", {
             a.parent = this;
             return a;
         } else {
-            //console.info("path",path)
             return list[path];
         }
     },
-
-    /*listen : function(type, func, bool){
-      core.data.Accessor.prototype.addEventListener(type, func, bool);
-    },
-
-    dispatch : function(type, data){
-      core.data.Accessor.prototype.dispatchEvent(type, data);
-    },*/
 
     set : function(path, val, _owner) {
         _owner = _owner||null;
@@ -2749,40 +2773,37 @@ namespace("core.data.Accessor", {
               owner:_owner
           });
         }
-
-        else{
-
-        
-        var a = this;
-        var old = a.data[path];
-        a.data[path] = val;
-        var p = this;
-        do {
-            p = p.parent
-        } while(p && p.parent)
-        this.dispatchEvent("changed", {
-            newvalue : val,
-            oldvalue : old,
-            key : path,
-            owner:_owner
-        });
-
-        if(this.path){
-          //if(!p){return a}
-          this.dispatchEvent("changed:" + this.path, {
+        else {        
+          var a = this;
+          var old = a.data[path];
+          a.data[path] = val;
+          var p = this;
+          do {
+              p = p.parent
+          } while(p && p.parent)
+          this.dispatchEvent("changed", {
               newvalue : val,
               oldvalue : old,
-              key : this.path,
+              key : path,
               owner:_owner
           });
-          this.dispatchEvent("changed:" + (this.path + "." + path), {
-              newvalue : val,
-              oldvalue : old,
-              key : (this.path + "." + path),
-              owner:_owner
-          });
-        }
-        return a
+
+          if(this.path){
+            //if(!p){return a}
+            this.dispatchEvent("changed:" + this.path, {
+                newvalue : val,
+                oldvalue : old,
+                key : this.path,
+                owner:_owner
+            });
+            this.dispatchEvent("changed:" + (this.path + "." + path), {
+                newvalue : val,
+                oldvalue : old,
+                key : (this.path + "." + path),
+                owner:_owner
+            });
+          }
+          return a
       }
     },
   
@@ -6838,24 +6859,14 @@ UrlHashState = {
             var appinfo     = rison.decode(decodeURIComponent(currentHash));
 
             if(!appinfo || !appinfo.appref){
-                window.location.hash=defaultHashPath;
+              window.location.hash=defaultHashPath;
             }
             else if(appinfo && appinfo.appref && appinfo.appref.length>0){
-                var ns = appinfo.appref.replace("/",".");
-                var app = self.currentRunningApplication;
-                if(!app || app.namespace != ns){
-                    self.dispatchEvent("openapp",true,true,appinfo)
-                }
-                
-                /*if(/apps[\/|\.]Desktop/g.test(appinfo.appref)){
-                    self.dispatchEvent("showdashboard",true,true,{})
-                } else {
-                    var ns = appinfo.appref.replace("/",".");
-                    var app = self.currentRunningApplication;
-                    if(!app || app.namespace != ns){
-                        self.dispatchEvent("openapp",true,true,appinfo)
-                    }
-                }*/
+              var ns = appinfo.appref.replace("/",".");
+              var app = self.currentRunningApplication;
+              if(!app || app.namespace != ns){
+                  self.dispatchEvent("openapp",true,true,appinfo)
+              }
             }
         }.debounce(300), false);
 
@@ -7177,23 +7188,28 @@ namespace("framework.Application",
     
     bootup : function(){
         var self=this;
+        new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
+
         if(appconfig.appref){
             this.element.classList.add("spa");
-            setTimeout(function() {
-                new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
+            /*setTimeout(function() {
+                //new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
                 self.downloadProfile();
                 self.refreshRunningApplication();
-            },400)
+            },400)*/
         }
         else{
-            setTimeout(function() {
-                new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
-                //self.initializeCarousel();
-                //self.initializeApplicationShortcuts();
+            /*setTimeout(function() {
+                //new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
                 self.downloadProfile();
                 self.refreshRunningApplication();
-            }, 400);
+            }, 400);*/
         }
+        setTimeout(function() {
+            //new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
+            self.downloadProfile();
+            self.refreshRunningApplication();
+        },400);
     },
     
     onWindowResized : function(e){

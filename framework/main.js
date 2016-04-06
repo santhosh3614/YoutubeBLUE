@@ -61,8 +61,11 @@ namespace("framework.Application",
     onLine : true,
     isLoggedIn : true,
     
-    initialize : function() {
+    initialize : function(model, element) {
         var self = this;
+        this.parent(model, element);
+ 
+        
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
 
         console.info("DEVICE RESOLUTION:", window.innerWidth + " x " + window.innerHeight);
@@ -97,7 +100,7 @@ namespace("framework.Application",
         document.addEventListener("mozfullscreenchange", this.onFullscreenChanged.bind(this),false);
         document.addEventListener("MSFullscreenChange", this.onFullscreenChanged.bind(this),false);
         window.addEventListener("resize", this.onWindowResized.bind(this).debounce(700), false);
-        this.addEventListener("profileloaded",this.onApplicationProfileLoaded.bind(this), false);
+        this.addEventListener("sessionloaded",this.onApplicationSessionLoaded.bind(this), false);
         this.addEventListener("logout",this.onApplicationLogout.bind(this), false);
         this.addEventListener("releaseapp", this.onReleaseApp.bind(this), false);
 
@@ -154,12 +157,12 @@ namespace("framework.Application",
     onApplicationOpened : function(e){},
     
     
-    onApplicationProfileLoaded : function(){
+    onApplicationSessionLoaded : function(){
         var self=this;
         if(appconfig.appref){
             this.dispatchEvent("openapp",true,true,{appref:appconfig.appref})
-        } 
-        StorageManager.initialize(this.namespace+"_"+Session.State.AccountProfile.profile_id)
+        };
+        this.dispatchEvent("appready",true,true,{});
     },
     
     initializeHeartBeatMonitor : function(){
@@ -318,23 +321,17 @@ namespace("framework.Application",
     
     bootup : function(){
         var self=this;
+        
+        //just to get the css to load.
+        new core.ui.Notification({type:"Information", message:""},null);
+
         if(appconfig.appref){
             this.element.classList.add("spa");
-            setTimeout(function() {
-                new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
-                self.downloadProfile();
-                self.refreshRunningApplication();
-            },400)
         }
-        else{
-            setTimeout(function() {
-                new core.ui.Notification({type:"Information", message:""},null);//just to get the css to load.
-                //self.initializeCarousel();
-                //self.initializeApplicationShortcuts();
-                self.downloadProfile();
-                self.refreshRunningApplication();
-            }, 400);
-        }
+        setTimeout(function() {
+            self.beginVisitorSession();
+            self.beginAppRefreshInterval();
+        },400);
     },
     
     onWindowResized : function(e){
@@ -448,7 +445,7 @@ namespace("framework.Application",
     },
 
     
-    refreshRunningApplication : function(){
+    beginAppRefreshInterval : function(){
         var self=this;
         setInterval(function(){
             if(self.currentRunningApplication && self.currentRunningApplication.isFocused()){
@@ -461,22 +458,22 @@ namespace("framework.Application",
         this.currentRunningApplication = app;
     },
     
-    downloadProfile : function(id, full){
+    beginVisitorSession : function(id, full){
         var uri = this.element.getAttribute("data-uri");
         var action = new core.http.WebAction(uri||ROUTES.DATA.PROFILE, {});
 
             action.invoke({
-                onSuccess  : this.onProfileLoaded.bind(this,full),
-                onFailure  : this.onProfileLoadedFailure.bind(this),
-                onRejected : this.onProfileLoadedFailure.bind(this)
+                onSuccess  : this.onVisitorSessionLoaded.bind(this,full),
+                onFailure  : this.onVisitorSessionFailure.bind(this),
+                onRejected : this.onVisitorSessionFailure.bind(this)
             });
     },
     
-    onProfileLoadedFailure : function(r,text){
-        console.error("failed to load users profile: " + text, r);
+    onVisitorSessionFailure : function(r,text){
+        console.error("failed to load visitor profile: " + text, r);
     },
     
-    onProfileLoaded : function(full,response, responseText){
+    onVisitorSessionLoaded : function(full,response, responseText){
         try{
             var data = JSON.parse(responseText);
             if(typeof data == "object"){
@@ -494,7 +491,7 @@ namespace("framework.Application",
         if(Session) {
             Session.State.AccountProfile = data;
             Session.State.CurrentProfile = data;
-            this.dispatchEvent("profileloaded", true, true, {profile:data});
+            this.dispatchEvent("sessionloaded", true, true, {profile:data});
         }
     },
 

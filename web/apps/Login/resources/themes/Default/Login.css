@@ -1,0 +1,20 @@
+.WebApplication.Login {
+    height: 100%;
+    width: 100%;
+    font-family: OpenSans;
+}
+
+.WebApplication.Login .WebComponent.WindowPanel{
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    right:auto;
+    bottom:auto;
+} 
+
+.WebApplication.Login .WebComponent.WindowPanel .panel-content {
+    padding: 5px 20px 0px 20px;
+    color: #515254;
+    margin-bottom: 6px;
+}

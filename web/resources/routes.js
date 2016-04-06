@@ -36,6 +36,12 @@ ROUTES = {
             staging : appconfig.apppath + "apps/SearchResults/main.js",
             test : appconfig.apppath + "apps/SearchResults/main.js",
             prod: appconfig.apppath + "apps/SearchResults/main.js"
+        },
+        Login: {
+            dev : appconfig.apppath + "apps/Login/main.js",
+            staging : appconfig.apppath + "apps/Login/main.js",
+            test : appconfig.apppath + "apps/Login/main.js",
+            prod: appconfig.apppath + "apps/Login/main.js"
         }
     },
     
@@ -79,6 +85,13 @@ ROUTES = {
             staging : appconfig.apppath + "apps/SearchResults/index.html",
             test : appconfig.apppath + "apps/SearchResults/index.html",
             prod : appconfig.apppath + "apps/SearchResults/index.html"
+        },
+
+        LOGIN: {
+            dev : appconfig.apppath + "apps/Login/index.html",
+            staging : appconfig.apppath + "apps/Login/index.html",
+            test : appconfig.apppath + "apps/Login/index.html",
+            prod : appconfig.apppath + "apps/Login/index.html"
         }
     },
     
@@ -129,7 +142,6 @@ ROUTES = {
                 restful: true
             }
         },
-
 
         ABOUT_INFO : {
             dev : appconfig.apppath + "resources/data/about.json",

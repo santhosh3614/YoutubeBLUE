@@ -3,7 +3,7 @@
 namespace("w3c.Element", {
 	'@inherits' : w3c.Node,
 	
-	initialize : function(element) {
+	/*initialize : function(element) {
         try {
             this.element = element;
         } 
@@ -13,7 +13,7 @@ namespace("w3c.Element", {
             throw e;
         }
         return this;
-    },
+    },*/
     
 	getAttribute : function(attrName, element){
 		element = element||this.element;

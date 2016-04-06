@@ -3,7 +3,7 @@
 namespace("w3c.Node", {
     '@traits': [w3c.CSSSelectors],
 	
-    preInitialize : function(model, element){
+    /*preInitialize : function(model, element){
         this.element = element;
         this.model 	 = model;
         this.initialize(model, element)
@@ -11,7 +11,7 @@ namespace("w3c.Node", {
     
     initialize : function(model, element){
     	
-    },
+    },*/
     
     addEventListener : function(type, callback, capture, element){
     	capture = (typeof capture == "boolean") ? capture : false;

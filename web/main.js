@@ -17,7 +17,7 @@ namespace("YoutubeBlue",
     '@inherits' : framework.Application,
     '@cascade'  : false,
     '@stylesheets' : [],
-    '@traits':[UrlHashState],
+    '@traits':[UrlHashState, core.traits.OAuth],
 
     
     initialize : function () {
@@ -28,6 +28,16 @@ namespace("YoutubeBlue",
             this.element.innerHTML="";
             alert("Mobile devices only. Open on your Phone. Go to:\njs.netai.net/YoutubeBlue");
         }
+        this.oauth.addEventListener("endsignin", this.onEndSignin.bind(this), false);
+    },
+
+    onStartSignin : function(){
+        this.oauth.startSignin();
+    },
+
+    onEndSignin : function(){
+        alert("Sign In Done")
+        console.info("End Signin", arguments);
     },
 
     innerHTML:

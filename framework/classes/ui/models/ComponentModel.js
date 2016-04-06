@@ -3,20 +3,24 @@
 namespace('ui.models.ComponentModel', {
 	"@traits": [new Observer],
 	
-	preInitialize: function(data, element) {
+	/*preInitialize: function(data, element) {
 		this.resetListeners();
 		this.resetModel(data);
 		this.setElement(element);
 		this.initialize(data, element);
+	},*/
+
+	initialize: function(data, element) {
+		this.resetListeners();
+		this.resetModel(data);
+		this.setElement(element);
+		//this.initialize(data, element);
 	},
 	
 	setElement : function(element){
 		this.element = element||this;
 	},
 	
-	initialize : function (data, element) {
-	  	
-	},
     
 	start: function() {},
 	

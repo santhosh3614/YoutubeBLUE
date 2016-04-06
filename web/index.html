@@ -24,16 +24,17 @@
         <script id="config">
             appconfig = {
                 version     : "1.0",
+                appid       : "A731D343-EAEC-4077-9369-00AB0CE191D0",
                 namespace   : "YoutubeBlue",
                 charset     : "utf-8",
                 environment : "staging",
                 theme       : "Default",
                 AMD         : true,
-                foucdelay   : 3000,
+                foucdelay   : 10,
                 debug       : false,
-                logging     : false,
+                logging     : true,
                 fullscreenmode  : true,
-                ismobile    : false,
+                ismobile    : true,
                 apppath     : "",
                 heartbeat   : false
                 //platform_type: "IOS"
@@ -43,11 +44,12 @@
       
 
 
-        <script type="text/javascript" charset="utf-8" src="resources/src/framework.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../framework/resources/src/framework.js"></script>
         <script src="resources/routes.js"></script>
         <script src="src/app/Session.js"></script>
         <script src="src/app/Constants.js"></script>
         <script src="src/app/Labels.js"></script>
+        <script src="src/core/traits/OAuth.js" type="text/javascript"></script>
         <script src="main.big.js"></script>
     </head>
     

@@ -10,6 +10,7 @@ namespace("core.ui.Notification", {
         this.titleNode = this.querySelector(".notification-title");
         this.msgNode = this.querySelector(".notification-message");
         this.iconNode = this.querySelector(".icon");
+
         this.appref = model.data.appref;
         this.forceclose = model.data.forceclose;
         this.titleNode.innerHTML = model.data.title||model.data.type;

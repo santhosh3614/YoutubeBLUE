@@ -37,7 +37,10 @@ namespace("w3c.HtmlComponent", {
         return this;
     },
     
-    initialize : function() { return this },
+    initialize : function(model, element, domready_func) {
+        
+        return this;
+    },
     
     setDomReadyCallback : function(cb){
         this.domReadyHandler = cb;
@@ -51,7 +54,7 @@ namespace("w3c.HtmlComponent", {
         }
         try{
             this.initializeChildComponents();
-            this.initializeTraits(this.model);
+            this.initializeTraits();
             this.initialize(this.model, this.element);
         }catch(e){
             var msg = this.namespace + ".prototype.preInitialize() - " + e.message;
