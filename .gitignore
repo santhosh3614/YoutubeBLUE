@@ -16,7 +16,7 @@ cordova/plugins/
 Android/bin/
 Android/gen/
 Android/assets/
-framework/
+framework/*
 
 # generated files
 bin/
