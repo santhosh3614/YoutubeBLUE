@@ -6,25 +6,6 @@ namespace("app.constants");
 
 
 
-/**
- * Google maps constants
- */
-app.constants.google = {
-    KEYS : {
-        ANDROID : {
-            GEOCODE_API : "AIzaSyCZhnlppKBTpXE2Xr3ndPWnox6KhTRjivQ"
-        },
-        IOS : {
-            GEOCODE_API: "AIzaSyDXuOPuzUI0lAL-o86EjjnAESkgj7mqKBo"
-        },
-        COMMON : {
-            "GEOCODE_API": "AIzaSyBaCW-_AXERlGauLo-V3BIMVvof_2hHzlI",
-            "MAPS_API" : "AIzaSyD7LMYcPKm4FpoMIODYDjTKx4tnUX3T5Qk"
-        }
-    }
-};
-
-
 app.constants.youtube = {
     MAX_RESULTS : 10,
     ORDER_BY : "date",
@@ -39,7 +20,31 @@ app.constants.youtube = {
             "YOUTUBE_API": "AIzaSyAhwrG6u-2IPkf6czJOLm_BaXOplqqBN9w"
         }
     }
-}
+};
+
+app.constants.oauth = {
+    KEEP_TEMP_TOKEN_IN_URL: false,
+    SESSION_EXPIRED_MSG : "Session Expired. Login to Coninue?",
+    PROVIDERS : {
+        GOOGLE : {
+            SECRET : "Pb-9UK1XOByYlcPrUy9Zs3Xv",
+            CLIENT_ID: "767465948567-1sn41l7o67n68dt3igr0tspv0c2p4om7.apps.googleusercontent.com",
+            REDIRECT_URI : "http://localhost:3000/web",
+            PARAM_NAMES : {
+                TEMP_TOKEN : "code",
+                ERROR : "error",
+                CLIENT_ID : "client_id",
+                CLIENT_SECRET : "client_secret",
+                REDIRECT_URI : "redirect_uri",
+                GRANT_TYPE : "grant_type",
+                REFRESH_TOKEN : "refresh_token",
+                RESPONSE_TYPE: "response_type",
+
+            }
+        }
+    }
+};
+
 
 
 app.constants.company = {

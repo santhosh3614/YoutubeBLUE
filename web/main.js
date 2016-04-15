@@ -17,7 +17,11 @@ namespace("YoutubeBlue",
     '@inherits' : framework.Application,
     '@cascade'  : false,
     '@stylesheets' : [],
-    '@traits':[UrlHashState, core.traits.OAuth],
+    '@traits':[
+        UrlHashState, 
+        core.traits.OAuthProfile,
+        core.traits.OAuth
+    ],
 
     
     initialize : function () {
